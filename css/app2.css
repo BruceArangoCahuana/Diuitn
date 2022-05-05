@@ -55,7 +55,17 @@
     width: 100%;
     height: 100vh;
 }
-
+.altura__hero{
+    height: 100px!important;
+}
+.tamaño__estandar{
+    font-size: 80px;
+    color: #85C77E;
+    font-weight: bold;
+}
+.btn{
+    border: none!important;;
+}
 @media (min-width: 1199px) { 
    
     
@@ -63,6 +73,9 @@
 @media (min-width:340px) and (max-width: 800px){
    .full__media{
         width: 100%!important;
+    }
+    .height__media{
+        height: 100%!important;
     }
    .menu__banderas{
     flex-direction: column-reverse!important;
@@ -74,12 +87,19 @@
     flex-direction: column-reverse!important;
    }
    .hero__diutin{
- 
+    background: url(../img/cellhero.png);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
-    width: 100%;
-   
-}
+   }
+   .tamaño__estandar{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    }
+    .letra__body{
+        font-size: 20px;
+        text-align: center;
+    }
 }
