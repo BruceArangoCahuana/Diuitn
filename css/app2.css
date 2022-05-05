@@ -1,0 +1,64 @@
+.container-fluid{
+    width: 90%!important;
+    max-width: 1400px!important;
+    margin: 0 auto;
+}
+
+.border__input{
+    border:1px solid #4389C8!important
+}
+.list__estilos{
+    list-style: none;
+}
+.icon__color{
+    color:white!important;
+    font-size: 25px;
+    object-fit: cover!important;
+}
+.full{
+    width: 100%;
+}
+.bandera__size{
+    width: 25px!important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    padding: 10px 15px;
+    background-color: #064DA1;
+    color:white!important;
+    font-weight:600;
+}
+.border__radius{
+    border-radius: 30px!important;
+}
+.btn__font{
+    font-size: 20px!important;
+    font-weight: bold!important;
+}
+   
+.btn-success{
+    background: #14AB4C!important;
+    transition: all .3s ease-in-out;
+}
+
+.btn-success:hover{
+    background: #119b43e5!important;
+}
+
+@media (min-width: 1199px) { 
+   
+    
+}
+@media (min-width:340px) and (max-width: 800px){
+   .full__media{
+        width: 100%!important;
+    }
+   .menu__banderas{
+    flex-direction: column-reverse!important;
+   }
+   .logo__diutin{
+       margin-bottom:20px!important;
+   }
+   .hero__media{
+    flex-direction: column-reverse!important;
+   }
+}
