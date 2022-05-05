@@ -43,6 +43,18 @@
 .btn-success:hover{
     background: #119b43e5!important;
 }
+.hero{
+    height: 100vh;
+}
+.hero__diutin{
+    background: url(../img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
 
 @media (min-width: 1199px) { 
    
@@ -61,4 +73,13 @@
    .hero__media{
     flex-direction: column-reverse!important;
    }
+   .hero__diutin{
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+   
+}
 }
