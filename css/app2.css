@@ -79,7 +79,7 @@
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    border-radius: 15px;
+  
 }
 .categoria__hero__azul{
     background: url(../img/fondoAzul.png);
@@ -89,7 +89,20 @@
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    border-radius: 15px;
+    
+}
+.categoria__hero__red{
+    background: url(../img/fondoRed.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.categoria__hero__red .tamaño__img{
+    width: 300px!important;
 }
 .title__categoria{
     font-size: 45px;
@@ -108,6 +121,24 @@
 .letra__body__{
     color:white!important;
     font-weight: bold;
+}
+
+.btn-info{
+    background: #064DA1!important;
+    color: white!important;
+    transition: all .4s ease-in-out;
+}
+.btn-info:hover{
+    background-color:#1565c5!important
+}
+.card-body{
+    padding: 10px 10px;
+}
+.fw-bolder{
+    font-weight: 600!important;
+}
+.cardsito{
+    border: 1px solid  #f2f2f2;
 }
 @media (min-width: 1199px) { 
    
@@ -153,8 +184,11 @@
         padding: 10px 15px;
     }
 
-    .categoria__hero{
-
+    .categoria__hero__red{
+        padding: 10px 15px;
+    }
+    .glider-contain{
+        width: 100%!important;
     }
 
 }
