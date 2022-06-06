@@ -30,7 +30,8 @@ window.addEventListener('load', function(){
             }
           ]
     })
-
+    
+    imprimirYear(yaerActual)
     slideAutoPaly(slider, '.glider');
 
     function slideAutoPaly(glider, selector, delay = 3000, repeat = true) {
@@ -71,5 +72,12 @@ window.addEventListener('load', function(){
 }
  
   })
-
   
+ // colocar año actual
+  const year = new Date()
+  const  yaerActual = year.getFullYear()
+  const imprimirYear = (leatra) =>{
+     return document.querySelector("#year").innerHTML = leatra
+  }
+  
+
