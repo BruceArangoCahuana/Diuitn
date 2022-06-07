@@ -1,3 +1,8 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif!important;
+    font-weight: 500!important;    
+}
+
 .container-fluid{
     width: 90%!important;
     max-width: 1400px!important;
@@ -321,4 +326,16 @@
         width: 100%!important;
     }
 
+}
+.font__oscuro{
+    font-weight: 500;
+}
+/* Blog */
+.hero__blog{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url(https://cdn.pixabay.com/photo/2020/03/06/08/00/laptop-4906312_960_720.jpg);
+    background-size: cover ;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    
 }
