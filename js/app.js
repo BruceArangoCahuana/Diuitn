@@ -31,6 +31,7 @@ window.addEventListener('load', function(){
           ]
     })
     
+    
     imprimirYear(yaerActual)
     slideAutoPaly(slider, '.glider');
 

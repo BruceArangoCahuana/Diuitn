@@ -185,6 +185,7 @@
 .text__social{
     font-weight: 600;
 }
+
 /** Footer**/
 .footer-distributed {
     background-color: #292c2f;
@@ -257,6 +258,19 @@
   
   .footer-distributed p.footer-links a:hover{text-decoration:underline;}
   
+.my__blog{
+    height:400px;
+    width: 100%!important;
+    background-position: center!important;
+    background-size:cover!important;
+}
+.my__blog:hover{
+   cursor: pointer!important; 
+}
+.fs__ico{
+    font-size: 20px;
+}
+  
   /* Media Queries */
   
   @media (max-width: 600px) {
@@ -277,6 +291,7 @@
     
 }
 @media (min-width:340px) and (max-width: 800px){
+   
    .full__media{
         width: 100%!important;
     }
@@ -322,14 +337,21 @@
     .glider-contain{
         width: 100%!important;
     }
-
+    .my__blog img{
+        width: 100%!important;
+        background-size: cover!important;
+    }
+    .text__center__query{
+        margin: auto!important;
+    }
 }
 .font__oscuro{
     font-weight: 500;
+    
 }
 /* Blog */
 .hero__blog{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url(https://cdn.pixabay.com/photo/2020/03/06/08/00/laptop-4906312_960_720.jpg);
+    background: url(https://cdn.pixabay.com/photo/2020/03/06/08/00/laptop-4906312_960_720.jpg);
     background-size: cover ;
     background-position: center;
     width: 100%;

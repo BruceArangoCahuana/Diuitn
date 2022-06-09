@@ -17,7 +17,7 @@
     <title>Diutin</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid d-flex flex-column">
                     <div class="col-11 d-flex flex-wrap justify-content-between mb-4 menu__banderas">
                         <div class="col-3">
@@ -181,10 +181,10 @@
     </div>
     <br>
     <div class="container-fluid mb-5">
-        <h2 class="mb-4 tamaño__categoria text-center">Nuestros  productos</h2>
-      <div class="glider-contain col-9 m-auto">
+        <h2 class="mb-4 tamaño__categoria text-center">Nuestros  Productos</h2>
+      <div class="glider-contain col-9 m-auto full__media">
                 <button aria-label="Previous" class="glider-prev"><i class="fa-solid fa-angle-left"></i></button>
-                <div id="glider" class="glider d-flex justify-content-between flex-wrap full__media align-items-center">
+                <div id="glider" class="glider d-flex justify-content-between flex-wrap  align-items-center">
                     
                         <div class="col-3  me-2 m-auto">
                                 <img src="img/producto-1.png" alt="" class="img-fluid">
@@ -238,36 +238,83 @@
         </div>
     </div>
     <div class="container-fluid mb-5">
-        <h2 class="mb-5 tamaño__categoria text-center">Nuestros  Redes Sociales</h2>
-        <div class="d-flex justify-content-evenly align-items-center flex-wrap col-11">
-            <div>
-                <div class="redes__social  bg-gradient p-3">
-                    <div class="text-center">
-                        <i class="fa fa-facebook icon-size"></i>
+        <h2 class="mb-4 tamaño__categoria text-center">Nuestros Blog</h2>
+      <div class="glider-contain col-9 m-auto full__media">
+                <button aria-label="Previous" class="glider-prev"><i class="fa-solid fa-angle-left"></i></button>
+                <div id="gliders" class="gliders d-flex justify-content-between flex-wrap full__media align-items-center">
+                    
+                    <div class="col-4">
+                        <div class="full m-auto my__blog" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527_960_720.jpg);">
+                             <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%;">
+                                    <h3 class="text-white text-center">Nuevo blog</h3>
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap col-7">
+                                        <small class="text-white  text__center__query"><i class="fa-solid fa-user fs__ico"></i> Autor:<span class="font__oscuro"> Duitin</span></small>
+                                        <small class="text-white text__center__query"><i class="fa-solid fa-calendar-days fs__ico"></i> Fecha:<span class="font__oscuro">7/06/2022</span></small>
+                                    </div>
+                             </div>
+                        </div>
                     </div>
-                </div>
-                <p class="mt-1 text-center text__social">Facebbok</p>
-            </div>
-
-            
-           <div>
-            <div class="redes__social_instagram  bg-gradient p-3">
-                <div class="text-center">
-                    <i class="fa fa-instagram icon-size"></i>
-                </div>
-            </div>
-            <p class="mt-1 text-center text__social">Instagram</p>
-           </div>
-            <div>
-                <div class="redes__social_link  bg-gradient p-3">
-                    <div class="text-center">
-                        <i class="fa fa-linkedin icon-size"></i>
+                    <div class="col-4">
+                        <div class="full m-auto my__blog" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_960_720.jpg);">
+                            <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%;">
+                                <h3 class="text-white text-center">Nuevo blog</h3>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap col-7">
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-user fs__ico"></i> Autor:<span class="font__oscuro"> Duitin</span></small>
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-calendar-days fs__ico"></i> Fecha:<span class="font__oscuro">7/06/2022</span></small>
+                                </div>
+                         </div>
+                        </div>
                     </div>
-                </div>
-                <p class="mt-1 text-center text__social">linkedin</p>
-            </div>
-           
-        </div>
+                    <div class="col-4">
+                        <div class="full m-auto my__blog" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://cdn.pixabay.com/photo/2015/02/26/15/40/doctor-650534_960_720.jpg);">
+                            <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%;">
+                                <h3 class="text-white text-center">Nuevo blog</h3>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap col-7 text__center__query">
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-user fs__ico"></i> Autor:<span class="font__oscuro"> Duitin</span></small>
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-calendar-days fs__ico"></i> Fecha:<span class="font__oscuro">7/06/2022</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="full m-auto my__blog" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://cdn.pixabay.com/photo/2012/04/10/17/40/vitamins-26622_960_720.png);">
+                            <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%;">
+                                <h3 class="text-white text-center">Nuevo blog</h3>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap col-7">
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-user fs__ico"></i> Autor:<span class="font__oscuro"> Duitin</span></small>
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-calendar-days fs__ico"></i> Fecha:<span class="font__oscuro">7/06/2022</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="full m-auto my__blog" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://cdn.pixabay.com/photo/2016/11/14/03/05/surgery-1822458_960_720.jpg);">
+                            <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%;">
+                                <h3 class="text-white text-center">Nuevo blog</h3>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap col-7">
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-user fs__ico"></i> Autor:<span class="font__oscuro"> Duitin</span></small>
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-calendar-days fs__ico"></i> Fecha:<span class="font__oscuro">7/06/2022</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="full m-auto my__blog" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://cdn.pixabay.com/photo/2020/04/04/15/11/brunch-5002686_960_720.jpg);">
+                            <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%;">
+                                <h3 class="text-white text-center">Nuevo blog</h3>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap col-7">
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-user fs__ico"></i> Autor:<span class="font__oscuro"> Duitin</span></small>
+                                    <small class="text-white text__center__query"><i class="fa-solid fa-calendar-days fs__ico"></i> Fecha:<span class="font__oscuro">7/06/2022</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                <!--<div role="tablist" class="dots"></div>-->
+              </div>
+              <button aria-label="Next" class="glider-next"><i class="fa-solid fa-angle-right"></i></button>
+              <div role="tablist" class="dots"></div>
+             </div>
     </div>
     <footer class="footer-distributed">
 
@@ -304,5 +351,6 @@
     <script src="https://kit.fontawesome.com/ccf76aa2b3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <script src="js/app.js"></script>   
+    <script src="js/sliderdos.js"></script>
 </body>
 </html>
