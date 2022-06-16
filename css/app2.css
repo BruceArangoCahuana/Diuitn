@@ -25,8 +25,8 @@
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     padding: 10px 10px;
-    background-color: #4297ff;
-    color:white!important;
+    background-color: #C1D9F7;
+    color:#064DA1!important;
     font-weight:600;
     border-radius: 20px!important;
 }
@@ -36,9 +36,15 @@
 .stilos__menu{
     border-radius: 20px!important;
     background-color: #064DA1;
-    padding: 10px 10px;
-    
+    padding: 10px 10px!important;
+   
 }
+.stilos__menu:hover{
+    background-color: #0f5fc0;
+ }
+ .navbar-light .navbar-nav .nav-link.active:hover{
+    background-color: #3788ebf5;
+  }
 .btn__font{
     font-size: 20px!important;
     font-weight: bold!important;
@@ -354,6 +360,17 @@ nav::before{
     .text__center__query{
         margin: auto!important;
     }
+    .separados{
+        margin-bottom: 10px!important;
+    }
+    .navbar::before{
+        content: "";
+        height: 40px!important;
+    }
+    .border__radius{
+        border-radius: 0px!important;
+        padding: 10px 10px;
+    }
 }
 .font__oscuro{
     font-weight: 500;
@@ -365,6 +382,6 @@ nav::before{
     background-size: cover ;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 480px;
     
 }
