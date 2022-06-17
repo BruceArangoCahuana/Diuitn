@@ -330,6 +330,9 @@ nav::before{
     .height__media{
         height: 100%!important;
     }
+    .text__center_query{
+        text-align: center!important;
+    }
    .menu__banderas{
     flex-direction: column-reverse!important;
    }
