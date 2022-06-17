@@ -387,6 +387,12 @@ nav::before{
         border-radius: 20px!important;
         padding: 10px 10px;
     }
+    .media__alto{
+        height: auto!important;
+    }
+    .padding__media{
+        padding: 15px 15px!important;
+    }
 }
 .font__oscuro{
     font-weight: 500;
