@@ -1,5 +1,3 @@
-
-
 .container-fluid{
     width: 90%!important;
     max-width: 1400px!important;
@@ -29,6 +27,9 @@
     color:#064DA1!important;
     font-weight:600;
     border-radius: 20px!important;
+}
+.border__standar{
+    border-radius: 15px!important;
 }
 .border__radius{
     border-radius: 20px!important;
@@ -286,7 +287,22 @@ nav::before{
 .fs__ico{
     font-size: 20px;
 }
-  
+.text__justify{
+    text-align: justify;
+}
+.icon__fondo{
+    padding: 15px 15px;
+    background-color: #f2f2f2;
+    color:#344f88;
+    font-size:30px;
+}
+.border__cien{
+    border-radius: 50%;
+}
+.letra{
+    font-size: 20px;
+    font-weight: 300;
+}
   /* Media Queries */
   
   @media (max-width: 600px) {
@@ -368,7 +384,7 @@ nav::before{
         height: 40px!important;
     }
     .border__radius{
-        border-radius: 0px!important;
+        border-radius: 20px!important;
         padding: 10px 10px;
     }
 }
@@ -384,4 +400,9 @@ nav::before{
     width: 100%;
     height: 480px;
     
+}
+
+/** reset **/
+.bg-info{
+    background-color: #064DA1!important;
 }
