@@ -3,6 +3,9 @@
     max-width: 1400px!important;
     margin: 0 auto;
 }
+.font__nunito{
+    font-family: 'Nunito', sans-serif!important;
+}
 
 .border__input{
     border:1px solid #4389C8!important
@@ -35,10 +38,12 @@
     border-radius: 20px!important;
 }
 .stilos__menu{
-    border-radius: 20px!important;
+    border-radius: 14px!important;
     background-color: #064DA1;
-    padding: 10px 10px!important;
-   
+    padding: 0px 0px px 0px!important;
+   font-size: 15px!important;
+   font-weight: bold!important;
+   font-family: 'Nunito', sans-serif!important;
 }
 .stilos__menu:hover{
     background-color: #0f5fc0;
@@ -86,6 +91,10 @@
 }
 .btn{
     border: none!important;;
+}
+.btn__vermas{
+    color:#064DA1!important;
+    border-radius: 20px!important;
 }
 .categoria__hero{
     background: url(../img/fondoVerder.png);
@@ -303,6 +312,15 @@ nav::before{
     font-size: 20px;
     font-weight: 300;
 }
+.nuevo__hero{
+    width: 100%!important;
+    max-width: 100%!important;
+    height: 100vh!important;
+   
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+}
   /* Media Queries */
   
   @media (max-width: 600px) {
@@ -329,6 +347,18 @@ nav::before{
     }
     .height__media{
         height: 100%!important;
+    }
+    .nuevo__hero{
+        background: url(../img/pequeño__banner.jpg)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        object-fit: cover!important;
+        max-width:100%!important;
+        height: 400px!important;
+    }
+    .btn__vermas{
+        width: 50%;
+
     }
     .text__center_query{
         text-align: center!important;
