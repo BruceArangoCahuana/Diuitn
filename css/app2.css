@@ -93,8 +93,9 @@
     border: none!important;;
 }
 .btn__vermas{
-    color:#064DA1!important;
+    color:#0C4E9D!important;
     border-radius: 20px!important;
+    font-family: 'Nunito', sans-serif!important;
 }
 .categoria__hero{
     background: url(../img/fondoVerder.png);
@@ -313,6 +314,7 @@ nav::before{
     font-weight: 300;
 }
 .nuevo__hero{
+    background: url(../img/estemeroes.jpg)!important;
     width: 100%!important;
     max-width: 100%!important;
     height: 100vh!important;
