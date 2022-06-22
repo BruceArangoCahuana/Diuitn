@@ -1,6 +1,6 @@
 .container-fluid{
     width: 90%!important;
-    max-width: 1400px!important;
+    max-width: 1800px!important;
     margin: 0 auto;
 }
 .font__nunito{
@@ -314,7 +314,7 @@ nav::before{
     font-weight: 300;
 }
 .nuevo__hero{
-    background: url(../img/estemeroes.jpg)!important;
+    background: url(../img/fondito.jpg)!important;
     width: 100%!important;
     max-width: 100%!important;
     height: 100vh!important;
@@ -370,6 +370,11 @@ nav::before{
        display: flex!important;
        justify-content: center!important;
         width: 100%!important;
+    }
+    .container-fluid{
+        width: 90%!important;
+        max-width: 1200px!important;
+        margin: 0 auto;
     }
     .text__center_query{
         text-align: center!important;
