@@ -351,12 +351,12 @@ nav::before{
         height: 100%!important;
     }
     .nuevo__hero{
-        background: url(../img/nuevo-banner-respon.jpg)!important;
+        background: url(../img/nuevodelosnuevos.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
         object-fit: cover!important;
         max-width:100%!important;
-        height: 450px!important;
+        height: 100vh!important;
     }
     .btn__vermas{
         width: 50%;
@@ -375,6 +375,9 @@ nav::before{
         width: 90%!important;
         max-width: 1200px!important;
         margin: 0 auto;
+    }
+    .banderitas{
+        display: none;
     }
     .text__center_query{
         text-align: center!important;
