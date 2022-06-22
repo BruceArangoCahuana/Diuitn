@@ -351,16 +351,25 @@ nav::before{
         height: 100%!important;
     }
     .nuevo__hero{
-        background: url(../img/pequeño__banner.jpg)!important;
+        background: url(../img/nuevo-banner-respon.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
         object-fit: cover!important;
         max-width:100%!important;
-        height: 400px!important;
+        height: 450px!important;
     }
     .btn__vermas{
         width: 50%;
 
+    }
+    .buton__espacio{
+        height: 170%!important;
+        
+    }
+    .buton__espacio .col-2{
+       display: flex!important;
+       justify-content: center!important;
+        width: 100%!important;
     }
     .text__center_query{
         text-align: center!important;
