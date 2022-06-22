@@ -321,14 +321,33 @@ nav::before{
     background: url(../img/fondito.jpg)!important;
     width: 100%!important;
     max-width: 100%!important;
-    height: 100vh!important;
-   
     background-size: cover!important;
     background-position: center!important;
     background-repeat: no-repeat!important;
+    object-fit: cover!important;
+    height: 100vh!important;
+}
+.nuevo__hero__dos{
+    background: url(../img/bannerdosgrandes.jpg)!important;
+    width: 100%!important;
+    max-width: 100%!important;
+    object-fit: cover!important;
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    height: 100vh!important;
 }
 .text__visibly{
     display: none!important;
+}
+
+
+.letra__baner{
+    font-family: 'Nunito', sans-serif!important;
+        color: white!important;
+        font-size: 21px;
+        font-weight: 900!important;
+        line-height: 1;
 }
   /* Media Queries */
   
@@ -365,6 +384,14 @@ nav::before{
         max-width:100%!important;
         height: 80vh!important;
     }
+    .nuevo__hero__dos{
+        background: url(../img/banner-pequeñodos.jpg)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        object-fit: cover!important;
+        max-width:100%!important;
+        height: 80vh!important;
+    }
     .btn__vermas{
         width: 50%;
 
@@ -373,18 +400,31 @@ nav::before{
         height: 160%!important;
         margin-bottom: 20px!important;
     }
+ 
     .text__visibly{
         display: block!important;
         font-family: 'Nunito', sans-serif!important;
-        color: white;
+        color: white!important;
         font-size: 21px;
         font-weight: 900!important;
         line-height: 1;
     }
+    .text__visibly__dos{
+        display: block!important;
+        font-family: 'Nunito', sans-serif!important;
+        color: white!important;
+        font-size: 21px;
+        font-weight: 900!important;
+        line-height: 1;
+    }
+    
     .buton__espacio .col-2{
        display: flex!important;
        justify-content: center!important;
         width: 100%!important;
+    }
+    .nuevo__hero__dos .btn__vermas{
+        display: none!important;
     }
     .container-fluid{
         width: 90%!important;

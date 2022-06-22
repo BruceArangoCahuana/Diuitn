@@ -1,0 +1,5 @@
+<div class="col-4 full__media justify-content-center align-items-center m-auto mt-2 full__media">
+                        <p class="text__visibly">Nuestra fibra soluble, que se disuelve fácilmente en tus comida y bebidas preferidas</p>
+                        <button class="btn  bg-white btn__vermas btn-lg  full" style="font-weight: bolder!important;">Ver más</button>
+                       <div></div>
+                    </div>
