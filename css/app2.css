@@ -323,6 +323,9 @@ nav::before{
     background-position: center!important;
     background-repeat: no-repeat!important;
 }
+.text__visibly{
+    display: none!important;
+}
   /* Media Queries */
   
   @media (max-width: 600px) {
@@ -351,7 +354,7 @@ nav::before{
         height: 100%!important;
     }
     .nuevo__hero{
-        background: url(../img/nuevodelosnuevos.jpg)!important;
+        background: url(../img/ahorasideveras.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
         object-fit: cover!important;
@@ -363,8 +366,17 @@ nav::before{
 
     }
     .buton__espacio{
-        height: 170%!important;
-        
+        height: 160%!important;
+        margin-bottom: 20px!important;
+    }
+    .text__visibly{
+        display: block!important;
+        font-family: 'Nunito', sans-serif!important;
+        color: white;
+        font-size: 21px;
+        font-weight: 900!important;
+       
+        line-height: 1;
     }
     .buton__espacio .col-2{
        display: flex!important;
