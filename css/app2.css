@@ -96,6 +96,10 @@
     color:#0C4E9D!important;
     border-radius: 20px!important;
     font-family: 'Nunito', sans-serif!important;
+    transition: all .3s ease-in-out;
+}
+.btn__vermas:hover{
+    background: whitesmoke!important;
 }
 .categoria__hero{
     background: url(../img/fondoVerder.png);
@@ -359,7 +363,7 @@ nav::before{
         background-position: center!important;
         object-fit: cover!important;
         max-width:100%!important;
-        height: 100vh!important;
+        height: 80vh!important;
     }
     .btn__vermas{
         width: 50%;
@@ -375,7 +379,6 @@ nav::before{
         color: white;
         font-size: 21px;
         font-weight: 900!important;
-       
         line-height: 1;
     }
     .buton__espacio .col-2{
@@ -390,6 +393,12 @@ nav::before{
     }
     .banderitas{
         display: none;
+    }
+    .stilos__menu{
+        
+        padding: .375rem .75rem!important;
+        border-radius: 20px!important;
+       font-family: 'Nunito', sans-serif!important;
     }
     .text__center_query{
         text-align: center!important;
