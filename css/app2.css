@@ -328,7 +328,7 @@ nav::before{
     height: 100vh!important;
 }
 .nuevo__hero__dos{
-    background: url(../img/bannerdosgrandes.jpg)!important;
+    background: url(../img/bannergrandedos.jpg)!important;
     width: 100%!important;
     max-width: 100%!important;
     object-fit: cover!important;
@@ -348,6 +348,27 @@ nav::before{
         font-size: 21px;
         font-weight: 900!important;
         line-height: 1;
+}
+
+.card__catgory{
+    background: white;
+    height: 130px;
+    
+}
+
+.categoria__form{
+    border:1px solid #c2c2c2
+}
+.header__category{
+    padding: 10px 15px;
+    background: #14AB4C;
+}
+
+.card__list{
+    background: #f2f2f2;
+}
+.text-warning{
+    color: gold;
 }
   /* Media Queries */
   
@@ -375,6 +396,14 @@ nav::before{
     }
     .height__media{
         height: 100%!important;
+    }
+    .list_product{
+        flex-wrap: wrap;
+    }
+    .list_product .card__catgory{
+        height: auto;
+        margin-bottom: 20px;
+        padding: 10px 15px;
     }
     .nuevo__hero{
         background: url(../img/ahorasideveras.jpg)!important;
