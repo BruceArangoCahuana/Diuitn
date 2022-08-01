@@ -35,7 +35,7 @@ window.addEventListener('load', function(){
      imprimirYear(yaerActual)
      slideAutoPaly(slider, '.glider__banner');
  
-     function slideAutoPaly(glider, selector, delay = 3000, repeat = true) {
+     function slideAutoPaly(glider, selector, delay = 2000, repeat = true) {
      let autoplay = null;
      const slidesCount = glider.track.childElementCount;
      let nextIndex = 1;
@@ -71,5 +71,11 @@ window.addEventListener('load', function(){
          }
      }, 300);
  }
-  
+
    })
+  
+   const year = new Date()
+   const  yaerActual = year.getFullYear()
+   const imprimirYear = (leatra) =>{
+      return document.querySelector("#year").innerHTML = leatra
+   }

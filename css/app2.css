@@ -74,7 +74,7 @@
     object-fit: cover;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 .altura__hero{
     height: 100px!important;
@@ -318,17 +318,17 @@ nav::before{
     font-weight: 300;
 }
 .nuevo__hero{
-    background: url(../img/fondito.jpg)!important;
+    background: url(../img/banner-1.jpg)!important;
     width: 100%!important;
     max-width: 100%!important;
+    object-fit: cover!important;
     background-size: cover!important;
     background-position: center!important;
     background-repeat: no-repeat!important;
-    object-fit: cover!important;
     height: 100vh!important;
 }
 .nuevo__hero__dos{
-    background: url(../img/bannergrandedos.jpg)!important;
+    background: url(../img/banner-2.jpg)!important;
     width: 100%!important;
     max-width: 100%!important;
     object-fit: cover!important;
@@ -337,7 +337,29 @@ nav::before{
     background-repeat: no-repeat!important;
     height: 100vh!important;
 }
-.text__visibly{
+.nuevo__hero__tres{
+    background: url(../img/banner-3.jpg)!important;
+    width: 100%!important;
+    max-width: 100%!important;
+    object-fit: cover!important;
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    height: 100vh!important;
+}
+.nuevo__hero__cuatro{
+    background: url(../img/banner-4.jpg)!important;
+    width: 100%!important;
+    max-width: 100%!important;
+    object-fit: cover!important;
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    height: 100vh!important;
+}
+.text__visibly,
+.text__visibly-1,
+.text__visibly-2{
     display: none!important;
 }
 
@@ -406,20 +428,36 @@ nav::before{
         padding: 10px 15px;
     }
     .nuevo__hero{
-        background: url(../img/ahorasideveras.jpg)!important;
+        background: url(../img/banner-pequeño-1.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
         object-fit: cover!important;
         max-width:100%!important;
-        height: 80vh!important;
+        height: 100vh!important;
     }
     .nuevo__hero__dos{
-        background: url(../img/banner-pequeñodos.jpg)!important;
+        background: url(../img/banner-pequeño-2.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
         object-fit: cover!important;
         max-width:100%!important;
-        height: 80vh!important;
+        height: 100vh!important;
+    }
+    .nuevo__hero__tres{
+        background: url(../img/banner-pequeño-3.jpg)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        object-fit: cover!important;
+        max-width:100%!important;
+        height: 100vh!important;
+    }
+    .nuevo__hero__cuatro{
+        background: url(../img/banner-pequeño-4.jpg)!important;
+        background-size: cover!important;
+        background-position: center!important;
+        object-fit: cover!important;
+        max-width:100%!important;
+        height: 100vh!important;
     }
     .btn__vermas{
         width: 50%;
@@ -437,14 +475,28 @@ nav::before{
         font-size: 21px;
         font-weight: 900!important;
         line-height: 1;
+        margin-top: 80px!important;
+        text-align: center!important;
     }
-    .text__visibly__dos{
+    .text__visibly-1{
         display: block!important;
         font-family: 'Nunito', sans-serif!important;
         color: white!important;
         font-size: 21px;
         font-weight: 900!important;
         line-height: 1;
+        margin-top: 160px!important;
+        text-align: center!important;
+    }
+    .text__visibly-2{
+        display: block!important;
+        font-family: 'Nunito', sans-serif!important;
+        color: white!important;
+        font-size: 21px;
+        font-weight: 900!important;
+        line-height: 1;
+        
+        text-align: center!important;
     }
     
     .buton__espacio .col-2{
