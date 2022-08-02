@@ -320,12 +320,12 @@ nav::before{
 .nuevo__hero{
     background: url(../img/banner-1.jpg)!important;
     width: 100%!important;
-    max-width: 100%!important;
-    object-fit: cover!important;
-    background-size: cover!important;
+ 
     background-position: center!important;
     background-repeat: no-repeat!important;
     height: 100vh!important;
+    object-fit:cover!important;
+    background-size:cover!important;
 }
 .nuevo__hero__dos{
     background: url(../img/banner-2.jpg)!important;
@@ -372,6 +372,32 @@ nav::before{
         line-height: 1;
 }
 
+.fondo__diuitn{
+    background: url(../img/fondo-por-que.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 690px;
+}
+.card__diutin{
+    background-color: #eef6ff;
+    width: 320px!important;
+    height: 498px;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
+-moz-box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
+box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
+}
+.card__body h2{
+    color: #164194;
+    font-weight: bold;
+}
+.text__justifys{
+   text-align: justify;
+   color: #164194;
+   font-size: 16px;
+}
 .card__catgory{
     background: white;
     height: 130px;
@@ -418,6 +444,16 @@ nav::before{
     }
     .height__media{
         height: 100%!important;
+    }
+    .height__media__p{
+        height: auto!important;
+        padding: 10px!important;
+    }
+    .mt-query{
+        margin-top: 20px!important;
+    }
+    .mb-query{
+        margin-bottom: 20px!important;
     }
     .list_product{
         flex-wrap: wrap;
@@ -587,7 +623,9 @@ nav::before{
     .padding__media{
         padding: 15px 15px!important;
     }
+    
 }
+
 .font__oscuro{
     font-weight: 500;
     
@@ -605,4 +643,10 @@ nav::before{
 /** reset **/
 .bg-info{
     background-color: #064DA1!important;
+}
+@media (min-width: 992px){
+    .mx-lg-5 {
+        
+        margin-left: 5rem!important;
+    }
 }
