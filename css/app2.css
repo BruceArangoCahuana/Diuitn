@@ -76,6 +76,24 @@
     width: 100%;
     height: 80vh;
 }
+.hero__diutin__{
+    background: url(../img/hero-diutin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 1017px;
+}
+.hero__diutin__2{
+    background: url(../img/hero-diutin-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 568px;
+}
 .altura__hero{
     height: 100px!important;
 }
@@ -227,7 +245,8 @@ nav::before{
     font: normal 16px sans-serif;
     padding: 45px 50px;
   }
-  
+
+ 
   .footer-distributed .footer-left p {
     color: rgb(86, 126, 207);
     font-size: 14px;
@@ -250,10 +269,15 @@ nav::before{
     text-decoration: none;
     color: inherit;
     transition: ease .25s;
+    font-weight: 300!important;
+  }
+  .footer-distributed p.footer-links a:hover{
+    font-weight: bolder!important;
+    font-size: 21px;
   }
   
   .footer-distributed .footer-links a:before {
-    content: "·";
+ 
     font-size: 20px;
     left: 0;
     color: #fff;
@@ -267,7 +291,8 @@ nav::before{
   
   .footer-distributed .footer-right {
     float: right;
-    margin-top: 6px;
+    
+    
     max-width: 180px;
   }
   
@@ -281,13 +306,11 @@ nav::before{
     color: rgb(24, 62, 138);
     text-align: center;
     line-height: 35px;
-    margin-left: 3px;
+    
     transition:all .25s;
   }
   
-  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
-  
-  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+ 
   
 .my__blog{
     height:400px;
@@ -384,7 +407,12 @@ nav::before{
 .fondo__diuitn h1{
   font-weight: bold;
   color: #164194;
-  
+  font-size: 60px;
+}
+.hero__diutin__2 h1{
+    font-weight: bold;
+    color: #164194;
+    font-size: 60px;
 }
 .card__diutin{
     background-color: #eef6ff;
@@ -398,11 +426,12 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
 .card__body h2{
     color: #164194;
     font-weight: bold;
+    font-size: 26px;
 }
 .text__justifys{
    text-align: justify;
    color: #164194;
-   font-size: 16px;
+   font-size: 20px;
 }
 .card__catgory{
     background: white;
@@ -657,7 +686,35 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
 .bg-info{
     background-color: #064DA1!important;
 }
-
+.redius{
+    border-radius: 50px!important;
+}
+.redius-xs-20{
+    border-radius: 20px!important;
+}
+.botom__reset{
+    margin-bottom: 160px!important;
+}
+.personalizado{
+    font-weight: bold;
+    color: #164194;
+    font-size: 60px;
+}
+.mb-5__personalizado{
+    margin-bottom: 35px!important;
+}
+.mt-5__personalizado{
+    margin-bottom: 35px!important;
+}
+.text-decoration{
+    text-decoration: none!important;
+}
+.sombra{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 50%!important;
+}
 @media (min-width: 992px){
     .mx-lg-5 {
         
