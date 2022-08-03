@@ -662,6 +662,10 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
         display: none!important;
     }
 }
+
+.delete-xs{
+    display: none!important;
+}
 .glider-dot{
     background-color: white!important;
 }
@@ -690,7 +694,7 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
     border-radius: 50px!important;
 }
 .redius-xs-20{
-    border-radius: 20px!important;
+    border-radius: 40px!important;
 }
 .botom__reset{
     margin-bottom: 160px!important;
@@ -710,10 +714,18 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
     text-decoration: none!important;
 }
 .sombra{
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    -moz-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
     border-radius: 50%!important;
+}
+.icono__sombra{
+    -webkit-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    -moz-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    border-radius: 50%!important;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 @media (min-width: 992px){
     .mx-lg-5 {
