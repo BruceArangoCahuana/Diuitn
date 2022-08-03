@@ -379,6 +379,12 @@ nav::before{
     object-fit: cover;
     background-position: center;
     height: 690px;
+  
+}
+.fondo__diuitn h2{
+  font-weight: bold;
+  color: #164194;
+  
 }
 .card__diutin{
     background-color: #eef6ff;
