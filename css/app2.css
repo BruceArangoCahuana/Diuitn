@@ -275,10 +275,10 @@ nav::before{
     display: inline-block;
     width: 35px;
     height: 35px;
-    background-color: rgb(86, 117, 180);;
-    border-radius: 2px;
+    background-color: #eef6ff;
+    border-radius: 50%;
     font-size: 20px;
-    color: #ffffff;
+    color: rgb(24, 62, 138);
     text-align: center;
     line-height: 35px;
     margin-left: 3px;
@@ -381,7 +381,7 @@ nav::before{
     height: 690px;
   
 }
-.fondo__diuitn h2{
+.fondo__diuitn h1{
   font-weight: bold;
   color: #164194;
   
@@ -629,9 +629,16 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
     .padding__media{
         padding: 15px 15px!important;
     }
-    
+    .delete{
+        display: none!important;
+    }
 }
-
+.glider-dot{
+    background-color: white!important;
+}
+.glider-dot.active{
+    background-color: #164194!important;
+}
 .font__oscuro{
     font-weight: 500;
     
@@ -650,9 +657,11 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
 .bg-info{
     background-color: #064DA1!important;
 }
+
 @media (min-width: 992px){
     .mx-lg-5 {
         
         margin-left: 5rem!important;
     }
 }
+
