@@ -3,6 +3,11 @@
     max-width: 1800px!important;
     margin: 0 auto;
 }
+.my__container{
+    width: 90%!important;
+    max-width: 1304px!important;
+    margin: 0 auto;
+}
 .font__nunito{
     font-family: 'Nunito', sans-serif!important;
 }
@@ -718,6 +723,8 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
     -moz-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
     box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
     border-radius: 50%!important;
+    width: 320px!important;
+
 }
 .icono__sombra{
     -webkit-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
