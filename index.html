@@ -105,7 +105,7 @@
     
     
   <section class="glider-contain">
-    <div id="carouselExampleCaptions" class="carousel slide carousel-multi-item" data-bs-ride="false"  data-ride="carousel" data-interval="false">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-multi-item" data-bs-ride="false"  data-ride="carousel" data-interval="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -145,12 +145,13 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <button class="carousel-control-prev glider-prev delete-xs" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <i class="fa-solid fa-angle-left"></i>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <button class="carousel-control-next glider-next delete-xs" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <i class="fa-solid fa-angle-right"></i>
+          
             <span class="visually-hidden">Next</span>
         </button>
         </div>
@@ -212,27 +213,27 @@
     <div class="my__container d-column justify-content-center align-items-center" style="height: 100%;">
         <br>
         <h1 class="text-center font__nunito personalizado mb-5__personalizado mt-5__personalizado">Nuestras Categorías</h1>
-        <div class="d-flex justify-content-between flex-wrap botom__reset">
-            <div class="col-3 m-auto botom__reset">
+        <div class="d-flex justify-content-between flex-wrap botom__reset m-auto">
+            <div class="col-3  botom__reset">
                 <img src="img/icono-xs-2.png" alt="" class="img-fluid sombra">
             </div>
-            <div class="col-3 m-auto botom__reset">
+            <div class="col-3  botom__reset">
                 <img src="img/icono-xs.png" alt="" class="img-fluid sombra">
             </div>
-            <div class="col-3 m-auto botom__reset">
+            <div class="col-3  botom__reset">
                 <img src="img/icono-xs-3.png" alt="" class="img-fluid sombra">
             </div>
             
             
         </div>
-        <div class="d-flex justify-content-evenly flex-wrap botom__reset">
-            <div class="col-3 m-auto botom__reset">
+        <div class="d-flex justify-content-between flex-wrap botom__reset m-auto">
+            <div class="col-3  botom__reset">
                 <img src="img/icono-xs-4.png" alt="" class="img-fluid sombra">
             </div>
-            <div class="col-3 m-auto botom__reset">
+            <div class="col-3  botom__reset">
                 <img src="img/icon-xs-5.png" alt="" class="img-fluid sombra">
             </div>
-            <div class="col-3 m-auto botom__reset">
+            <div class="col-3  botom__reset">
                 <img src="img/icono-xs-6.png" alt="" class="img-fluid sombra">
             </div>
             
@@ -247,16 +248,16 @@
         <div class="d-column justify-content-evenly align-items-center" style="height:100%;">
             <div class="my__container">
                 <div class="glider-contain full m-auto full__media">
-                    <button aria-label="Previous" class="glider-prev"><i class="fa-solid fa-angle-left delete-xs"></i></button>
+                    
                         <div id="gliders" class="gliders d-flex justify-content-between flex-wrap full__media align-items-center position-relative">
                             
                             <div class="col-4">
-                                <div class="full m-auto my__blog redius-xs-20 full__media" style="background: url(./img/blog-2.png);">
+                                <div class="full m-auto my__blog redius-xs-20 full__media blog__1">
                                 
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="full m-auto my__blog redius-xs-20 full__media" style="background: url(./img/blog-1.png);">
+                                <div class="full m-auto my__blog redius-xs-20 full__media full__media blog__2" >
                                 
                                 </div>
                             </div>
@@ -267,9 +268,9 @@
                         </div>
               
                 <div class="d-flex justify-content-center align-items-center">
-                    <button aria-label="Previous" class="glider-prev position-absolute" style="top: 20px;bottom: 20px;left: 10px;"><i class="fa-solid fa-angle-left"></i></button>
+                    
                     <div role="tablist" class="dots position-absolute" style="bottom: 10px;"></div>
-                    <button aria-label="Next" class="glider-next delete position-absolute" style="top: 20px;bottom: 20px;right: 10px;"><i class="fa-solid fa-angle-right"></i></button>
+                    
                 </div>
                 </div>
             </div>

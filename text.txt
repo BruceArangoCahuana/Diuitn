@@ -1,5 +1,62 @@
-<div class="col-4 full__media justify-content-center align-items-center m-auto mt-2 full__media">
-                        <p class="text__visibly">Nuestra fibra soluble, que se disuelve fácilmente en tus comida y bebidas preferidas</p>
-                        <button class="btn  bg-white btn__vermas btn-lg  full" style="font-weight: bolder!important;">Ver más</button>
-                       <div></div>
+<p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+
+                <a href="#">Blog</a>
+
+                <a href="#">Productos</a>
+
+                <a href="#">Donde comprar</a>
+
+                <a href="#">Preguntas frecuentes</a>
+
+                <a href="#">Contactanos</a>
+            </p>
+
+
+
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+
+
+ <div class="col-3 card__diutin full__media mb-query mt-query" style="margin-top: 0px;">
+                    <div class="d-flex justify-content-evenly align-items-center flex-wrap">
+                            <img src="img/icono-porque-1.png" alt="" class="img-fluid mt-3">
                     </div>
+                    <div class="card__body mt-3">
+                        <h2 class="text-center font__nunito">Innovación en Nutrición</h2>
+                        <p class="p-3 text__justifys font__nunito">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quidem velit repellat non fugit voluptatibus id modi a
+                            rchitecto rem! Totam, atque.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3 card__diutin full__media mb-query">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img src="img/icono-porque-2.png" alt="" class="img-fluid mt-3">
+                    </div>
+                    <div class="card__body mt-3">
+                        <h2 class="text-center font__nunito">Hecho en USA</h2>
+                        <p class="p-3 text__justifys font__nunito">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quidem velit repellat non fugit voluptatibus id modi a
+                            rchitecto rem! Totam, atque.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3 card__diutin full__media mb-query">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img src="img/icono-porque-3.png" alt="" class="img-fluid mt-3">
+                    </div>
+                    <div class="card__body mt-3">
+                        <h2 class="text-center font__nunito">Variedad</h2>
+                        <p class="p-3 text__justifys font__nunito">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quidem velit repellat non fugit voluptatibus id modi a
+                            rchitecto rem! Totam, atque.
+                        </p>
+                    </div>
+                </div>

@@ -704,6 +704,9 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
 .botom__reset{
     margin-bottom: 160px!important;
 }
+.margin__reset{
+    margin-left: 160px!important;
+}
 .personalizado{
     font-weight: bold;
     color: #164194;
@@ -733,6 +736,26 @@ box-shadow: 0px 0px 20px 3px rgba(10,40,66,0.2);
     border-radius: 50%!important;
     margin-top: 36px;
     margin-bottom: 36px;
+}
+.blog__1{
+   
+    background: url( ../img/blog-1.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover!important;
+    width: 1280px;
+    height: 350px;
+    
+}
+.blog__2{
+   
+    background: url( ../img/blog-2.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover!important;
+    width: 1280px;
+    height: 350px;
+    
 }
 @media (min-width: 992px){
     .mx-lg-5 {
