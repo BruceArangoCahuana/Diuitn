@@ -865,6 +865,11 @@ br{
     font-weight: bold;
 }
 
+.title{
+    font-weight: bold!important;
+    color: #164194;
+    font-size: 60px!important;
+}
 @media (min-width: 992px){
     .mx-lg-5 {
         
