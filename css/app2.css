@@ -858,7 +858,13 @@ br{
 .reset__footer{
     font-weight: 300px!important;
     font-family: 'Nunito', sans-serif!important;
+    font-size: 20px!important;
+    transition: all .3s ease-in-out!important;
 }
+.reset__footer:hover{
+    font-weight: bold;
+}
+
 @media (min-width: 992px){
     .mx-lg-5 {
         
