@@ -777,12 +777,13 @@ border-radius: 50%;
     font-weight: bold;
 }
 .fondo__personalizado{
-    background: url( ../img/fondo-per.jpg);
-    background-size: auto;
+    background: url( ../img/fondo_corregido.jpg);
+    background-size: cover;
     background-position: center;
     
     background-repeat: no-repeat;
     object-fit: cover!important;
+    width: 100%!important;
 }
 .card__nosotro{
     width: 200px!important;
@@ -799,6 +800,12 @@ border-radius: 50%;
 
 .mt__100{
     margin-top: 100px!important;
+}
+.mt__57{
+    margin-top: 57px!important;
+}
+.mb__57{
+    margin-top: 57px!important;
 }
 .mb__100{
     margin-bottom: 100px!important;
@@ -846,6 +853,10 @@ br{
 }
 .font__btn__2{
     font-size: 30px!important;
+    font-family: 'Nunito', sans-serif!important;
+}
+.reset__footer{
+    font-weight: 300px!important;
     font-family: 'Nunito', sans-serif!important;
 }
 @media (min-width: 992px){
