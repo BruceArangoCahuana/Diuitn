@@ -8,6 +8,12 @@
     max-width: 1304px!important;
     margin: 0 auto;
 }
+.my__container__he{
+    width: 90%!important;
+    height: auto!important;
+    max-width: 1304px!important;
+    margin: 0 auto;
+}
 .font__nunito{
     font-family: 'Nunito', sans-serif!important;
 }
@@ -793,13 +799,25 @@ border-radius: 50%;
 .me__pers{
     margin-left: 160px!important;
 }
+.me__203{
+    margin-left: 203px!important;
+}
 .mr__pers{
     margin-right: 160px!important;
+}
+.mr__203{
+    margin-right: 203px!important;
 }
 
 
 .mt__100{
     margin-top: 100px!important;
+}
+.mt__242{
+    margin-top: 242px!important;
+}
+.mt__250{
+    margin-top: 280px!important;
 }
 .mt__57{
     margin-top: 57px!important;
@@ -812,6 +830,9 @@ border-radius: 50%;
 }
 .mb__48{
     margin-bottom: 48px!important;
+}
+.mb__242{
+    margin-bottom: 240px!important;
 }
 br{
     margin-top: 100px!important; 
@@ -843,9 +864,16 @@ br{
 .card__nosotros__per{
     width: 800px !important;
 }
+.card__nosotros__pregunta{
+    width: 455px !important;
+}
 .img__card{
     width: 320px!important;
     height: 320px!important;
+}
+.img__card__nosotros{
+    width: 250px!important;
+    height: 250px!important;
 }
 .font__btn__1{
     font-size: 40px!important;
@@ -869,6 +897,16 @@ br{
     font-weight: bold!important;
     color: #164194;
     font-size: 60px!important;
+}
+/** Preguntas frecuentes **/
+.fondo__body{
+    background: url( ../img/fondo-body.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover!important;
+
+    
 }
 @media (min-width: 992px){
     .mx-lg-5 {
