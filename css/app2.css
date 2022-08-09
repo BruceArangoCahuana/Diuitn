@@ -818,8 +818,8 @@ border-radius: 50%;
 .mt__242{
     margin-top: 242px!important;
 }
-.mt__248{
-    margin-top: 280px!important;
+.mt__116{
+    margin-top: 116px!important;
 }
 .mt__249{
     margin-top: 300px!important;
@@ -924,12 +924,10 @@ br{
 }
 /** Preguntas frecuentes **/
 .fondo__body{
-    background: url(../img/fondofio.jpg);
+    background: url(../img/fondo__definitivo.jpg);
     background-size: cover;
     background-position: center;
-    
     background-repeat: no-repeat;
- 
     width: 100%!important;
    
 }
