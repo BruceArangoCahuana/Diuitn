@@ -864,6 +864,12 @@ br{
 .border__radius{
  border-radius: 40px!important;
 }
+.border__radius__s{
+    -webkit-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    -moz-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.15);
+    border-radius: 40px!important;
+}
 .color__plomo{
     color: #5a5a5a!important;
 }
