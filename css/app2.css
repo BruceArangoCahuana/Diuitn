@@ -937,6 +937,9 @@ br{
     width: 250px;
     height: 250px;
 }
+.bolder__{
+    font-weight: bold!important;
+}
 .card__boticas{
    width: 400px !important;
    height: 100px;
