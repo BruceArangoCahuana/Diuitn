@@ -813,9 +813,29 @@ border-radius: 50%;
 .mt__100{
     margin-top: 100px!important;
 }
+
+
 .mt__242{
     margin-top: 242px!important;
 }
+.mt__248{
+    margin-top: 280px!important;
+}
+.mt__249{
+    margin-top: 300px!important;
+}
+.mt__253{
+    margin-top: 290px!important;
+}
+.mt__254{
+    margin-top: 340px!important;
+}
+.mt__256{
+    margin-top: 370px!important;
+}
+
+
+
 .mt__250{
     margin-top: 280px!important;
 }
@@ -831,6 +851,10 @@ border-radius: 50%;
 .mb__48{
     margin-bottom: 48px!important;
 }
+.mb__40{
+    margin-bottom: 40px!important;
+}
+
 .mb__242{
     margin-bottom: 240px!important;
 }
@@ -900,13 +924,22 @@ br{
 }
 /** Preguntas frecuentes **/
 .fondo__body{
-    background: url( ../img/fondo-body.jpg);
+    background: url(../img/fondofio.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover!important;
-
     
+    background-repeat: no-repeat;
+ 
+    width: 100%!important;
+   
+}
+.cubo__invisible{
+    width: 250px;
+    height: 250px;
+}
+.card__boticas{
+   width: 400px !important;
+   height: 100px;
 }
 @media (min-width: 992px){
     .mx-lg-5 {
