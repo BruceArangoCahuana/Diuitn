@@ -997,6 +997,14 @@ br{
     border-radius: 20px!important;
     height: auto!important;
 }
+.pointer__{
+    transition: all .2s ease-in-out;
+}
+.pointer__:hover{
+    cursor: pointer!important;
+    transform: scale(1.1);
+}
+
 /** 
 .modal-content{
     width: 500px!important;
