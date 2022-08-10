@@ -948,6 +948,61 @@ br{
    width: 400px !important;
    height: 100px;
 }
+/*** mODAL**/
+.modal-title{
+    text-align: center!important;
+}
+.modal-header{
+    border: none!important;
+}
+.modal-foote{
+    border-top: none!important;
+}
+.mt__32{
+    margin-top: 32PX!important;
+}
+.mt__10{
+    margin-top: 10PX!important;
+}
+.mt__40{
+    margin-top: 40PX!important;
+}
+.mb__40{
+    margin-bottom: 40PX!important;
+}
+.me__10{
+ margin-left: 10px!important;
+}
+.btn__reset{
+     width: 208px!important;
+     height: auto!important;
+     border-radius: 20px!important;
+     font-size: 24px!important;
+}
+.label__{
+    font-size: 24.8px!important;
+    color: #164194!important;
+}
+.reset__form{
+    background: #d3d3d3!important;
+    border-radius: 20px!important;
+    
+}
+.reset__form:focus{
+    background: #f1eded!important;
+    
+}
+.modal-content{
+    width: 500px!important;
+    border-radius: 20px!important;
+    height: auto!important;
+}
+/** 
+.modal-content{
+    width: 500px!important;
+    height: 538px!important;
+}
+**/
 @media (min-width: 992px){
     .mx-lg-5 {
         

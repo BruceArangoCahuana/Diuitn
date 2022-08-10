@@ -116,7 +116,7 @@
                     <p class="font__subtitle__body font__nunito"  style="font-weight: 500!important;">
                         Si cuenta  con una farmacia y/o Botica,
                         puede enviarnos sus datos para contactarnos <a href="#" style="text-decoration: none;"class="bolder__ color__blue" 
-                        data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-toggle="modal" data-bs-target="#modal__1"
                         >Aqui</a>
                     </p>
                 </div>
@@ -143,7 +143,8 @@
                     <h2 class="color__blue font__subtitle text-center font__nunito bolder__">CONSULTAS ACERCA DE PONENCIAS</h2>
                     <p class="font__subtitle__body font__nunito" style="font-weight: 500!important;">
                         Es una ponencia dirigida a los profesionales de la salud. Si 
-                        usted pertenece a estas. <a href="#" style="text-decoration: none;" class="bolder__ color__blue">Regístrese aqui</a>
+                        usted pertenece a estas. <a href="#" style="text-decoration: none;" class="bolder__ color__blue" 
+                        data-bs-toggle="modal" data-bs-target="#modal__2">Regístrese aqui</a>
                     </p>
                 </div>
                 <div class="img__card__nosotros">
@@ -158,7 +159,9 @@
             <div class="card__nosotros__pregunta">
                 <h2 class="color__blue font__subtitle text-center font__nunito bolder__">CONSULTAS ACERCA DE VISITA MÉDICA</h2>
                 <p class="font__subtitle__body font__nunito" style="font-weight: 500!important;">
-                    Envienos sus datos para que un representante se ponga en contacto con usted.<a href="#" style="text-decoration: none;" class="bolder__ color__blue">Click aqui</a>
+                    Envienos sus datos para que un representante se ponga en contacto con usted.<a href="#" style="text-decoration: none;" class="bolder__ color__blue"
+                    data-bs-toggle="modal" data-bs-target="#modal__3"
+                    >Click aqui</a>
                     .</p>
             </div>
             
@@ -210,23 +213,205 @@
                </div>
            </div>
     </footer>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!--Modal 1-->
+    <div class="modal fade" id="modal__1" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <div class="modal-header flex-column">
+               
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div><h5 class="modal-title color__blue font__nunito" id="Modal-1" style="font-size: 30px;">Regístrate</h5></div>
             </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="modal-body">
+                    
+                    <div class="form-group align-items-center">
+                        <label class="label__ font__nunito">RUC:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa RUC">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Razón Social:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        </div>
+                    </div>
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Representante Legal:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        </div>
+                    </div>
+                
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Datos del contacto:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Número del contacto:</label>
+                        <div class="full">
+                        <input type="tel" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Dirección:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Ciudad:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        </div>
+                    </div>
+                    
+                </div>
+            <div class="mt__40 mb__40 d-flex justify-content-center align-items-center">
+              <button type="button" class="btn btn-info btn__reset font__nunito">Enviar</button>
             </div>
           </div>
         </div>
-      </div>
+    </div>
+    <!--Modal 2-->
+    <div class="modal fade" id="modal__2" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header flex-column">
+               
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div><h5 class="modal-title color__blue font__nunito" id="Modal-1" style="font-size: 30px;">Regístrate</h5></div>
+            </div>
+                <div class="modal-body">
+                    
+                    <div class="form-group align-items-center">
+                        <label class="label__ font__nunito">Nombre Completo:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa nombre completo">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Profesión:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa profesion">
+                        </div>
+                    </div>
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">CMP/CNP/CEP:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa CMP,CNP O CEP">
+                        </div>
+                    </div>
+                
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Correo electronico:</label>
+                        <div class="full">
+                        <input type="email" class="form-control full reset__form font__nunito" placeholder="Ingresa correo">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Celular:</label>
+                        <div class="full">
+                        <input type="tel" class="form-control full reset__form font__nunito" placeholder="Ingresa numero de celular">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Centro de Labores:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa lugar de trabajo">
+                        </div>
+                    </div>
+
+                    <div class="form-group  align-items-center mt__10">
+                        <label class="label__ font__nunito">Ciudad:</label>
+                        <div class="full">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        </div>
+                    </div>
+                    
+                </div>
+            <div class="mt__40 mb__40 d-flex justify-content-center align-items-center">
+              <button type="button" class="btn btn-info btn__reset font__nunito">Enviar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+      <!--Modal 3-->
+      <div class="modal fade" id="modal__3" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header flex-column">
+               
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div><h5 class="modal-title color__blue font__nunito" id="Modal-1" style="font-size: 30px;">Regístrate</h5></div>
+            </div>
+                    <div class="modal-body">
+                        
+                        <div class="form-group align-items-center">
+                            <label class="label__ font__nunito">Nombre Completo:</label>
+                            <div class="full">
+                            <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa nombre completo">
+                            </div>
+                        </div>
+
+                        <div class="form-group  align-items-center mt__10">
+                            <label class="label__ font__nunito">Profesión:</label>
+                            <div class="full">
+                            <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa profesion">
+                            </div>
+                        </div>
+                        <div class="form-group  align-items-center mt__10">
+                            <label class="label__ font__nunito">CMP/CNP/CEP:</label>
+                            <div class="full">
+                            <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa CMP,CNP O CEP">
+                            </div>
+                        </div>
+                    
+                        <div class="form-group  align-items-center mt__10">
+                            <label class="label__ font__nunito">Correo electronico:</label>
+                            <div class="full">
+                            <input type="email" class="form-control full reset__form font__nunito" placeholder="Ingresa correo">
+                            </div>
+                        </div>
+
+                        <div class="form-group  align-items-center mt__10">
+                            <label class="label__ font__nunito">Celular:</label>
+                            <div class="full">
+                            <input type="tel" class="form-control full reset__form font__nunito" placeholder="Ingresa numero de celular">
+                            </div>
+                        </div>
+
+                        <div class="form-group  align-items-center mt__10">
+                            <label class="label__ font__nunito">Institución:</label>
+                            <div class="full">
+                            <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa Institución">
+                            </div>
+                        </div>
+
+                        <div class="form-group  align-items-center mt__10">
+                            <label class="label__ font__nunito">Ciudad:</label>
+                            <div class="full">
+                            <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                            </div>
+                        </div>
+                        
+                    </div>
+                <div class="mt__40 mb__40 d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-info btn__reset font__nunito">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ccf76aa2b3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
