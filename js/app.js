@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded',()=>{
   
 function clicked(){
     cardUno.removeChild(btnUno)
-    cardimagenUno.src("card-cambio.png")
+    cardimagenUno.src="img/card-cambio.png"
 }
