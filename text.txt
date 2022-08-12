@@ -1,67 +1,82 @@
-<p class="footer-links">
-                <a class="link-1" href="#">Home</a>
 
-                <a href="#">Blog</a>
+/// card - 1
+function clicked(){
+    cardUno.removeChild(btnUno)
+    cardimagenUno.src="img/card-cambio.png"
+    cardUno.setAttribute("id","active-card")
+    const divContent = document.createElement("div")
+    const h2content = document.createElement("h2")
+    const pcontent = document.createElement("p")
+    const btnsalir = document.createElement("img")
 
-                <a href="#">Productos</a>
+    btnsalir.setAttribute("id","cerrar")
+    divContent.setAttribute("id","eliminar-content")
+    divContent.classList.add("position-absolute","p-3","d-flex","justify-content-center","flex-column","align-items-center","full")
+    divContent.classList.add("position__card")
+    
+    h2content.classList.add("text-center","text-white","font__nunito","titulo__")
+    pcontent.classList.add("p__white","font__nunito" ,"p__")
+   
+    btnsalir.src="img/icono-flecha.png"
+    const contentTitle = document.createTextNode("Judd Sanders")
+    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
+    
+    h2content.appendChild(contentTitle)
+    divContent.appendChild(h2content)
+    divContent.appendChild(pcontent)
+    divContent.appendChild(btnsalir)
+    pcontent.appendChild(contentText)
+    cardUno.appendChild(divContent)
+   if(document.querySelector("#cerrar")){
+    document.querySelector("#cerrar").addEventListener("click",cerrarsUno)
+   }
+}
 
-                <a href="#">Donde comprar</a>
+function cerrarsUno(){
+    cardimagenUno.src="img/img-gerente.png"
+    cardUno.removeChild(document.querySelector("#eliminar-content"))
+    if(!document.querySelector("#eliminar-content")){
+        cardUno.appendChild(btnUno)
+    }
+} 
 
-                <a href="#">Preguntas frecuentes</a>
+/// card - 2
+function clickedDos(){
+    cardDos.removeChild(btnDos)
+    cardimagenDos.src="img/card-cambio.png"
+    cardDos.setAttribute("id","active-card")
+    const divContent = document.createElement("div")
+    const h2content = document.createElement("h2")
+    const pcontent = document.createElement("p")
+    const btnsalir = document.createElement("img")
 
-                <a href="#">Contactanos</a>
-            </p>
+    btnsalir.setAttribute("id","cerrar-2")
+    divContent.setAttribute("id","eliminar-content-2")
+    divContent.classList.add("position-absolute","p-3","d-flex","justify-content-center","flex-column","align-items-center","full")
+    divContent.classList.add("position__card")
+    
+    h2content.classList.add("text-center","text-white","font__nunito","titulo__")
+    pcontent.classList.add("p__white","font__nunito" ,"p__")
+   
+    btnsalir.src="img/icono-flecha.png"
+    const contentTitle = document.createTextNode("Judd Sanders")
+    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
+    
+    h2content.appendChild(contentTitle)
+    divContent.appendChild(h2content)
+    divContent.appendChild(pcontent)
+    divContent.appendChild(btnsalir)
+    pcontent.appendChild(contentText)
+    cardDos.appendChild(divContent)
+   if(document.querySelector("#cerrar-2")){
+    document.querySelector("#cerrar-2").addEventListener("click",cerrarsDos)
+   }
+}
 
-
-
-            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-
-
-
- <div class="col-3 card__diutin full__media mb-query mt-query" style="margin-top: 0px;">
-                    <div class="d-flex justify-content-evenly align-items-center flex-wrap">
-                            <img src="img/icono-porque-1.png" alt="" class="img-fluid mt-3">
-                    </div>
-                    <div class="card__body mt-3">
-                        <h2 class="text-center font__nunito">Innovación en Nutrición</h2>
-                        <p class="p-3 text__justifys font__nunito">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quidem velit repellat non fugit voluptatibus id modi a
-                            rchitecto rem! Totam, atque.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-3 card__diutin full__media mb-query">
-                    <div class="d-flex justify-content-evenly align-items-center">
-                        <img src="img/icono-porque-2.png" alt="" class="img-fluid mt-3">
-                    </div>
-                    <div class="card__body mt-3">
-                        <h2 class="text-center font__nunito">Hecho en USA</h2>
-                        <p class="p-3 text__justifys font__nunito">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quidem velit repellat non fugit voluptatibus id modi a
-                            rchitecto rem! Totam, atque.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-3 card__diutin full__media mb-query">
-                    <div class="d-flex justify-content-evenly align-items-center">
-                        <img src="img/icono-porque-3.png" alt="" class="img-fluid mt-3">
-                    </div>
-                    <div class="card__body mt-3">
-                        <h2 class="text-center font__nunito">Variedad</h2>
-                        <p class="p-3 text__justifys font__nunito">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quidem velit repellat non fugit voluptatibus id modi a
-                            rchitecto rem! Totam, atque.
-                        </p>
-                    </div>
-                </div>
-
-
-914034213
-fhinojoza@csticorp.biz
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+function cerrarsDos(){
+    cardimagenDos.src="img/img-gerente.png"
+    cardDos.removeChild(document.querySelector("#eliminar-content-2"))
+    if(!document.querySelector("#eliminar-content-2")){
+        cardDos.appendChild(btnDos)
+    }
+} 

@@ -1005,6 +1005,24 @@ br{
     transform: scale(1.1);
 }
 
+.pointer__js{
+    cursor: pointer;
+}
+.position__card{
+    bottom: 110px!important; 
+    height: 100px!important;
+}
+.p__white{
+    color: white!important;
+}
+.titulo__{
+    font-size: 40px!important;
+    font-weight: bolder!important;
+}
+.p__{
+    font-size: 25px!important;
+    text-align: justify!important;
+}
 /** 
 .modal-content{
     width: 500px!important;
