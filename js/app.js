@@ -59,7 +59,7 @@ function borrarUno(){
     h2content.classList.add("text-center","text-white","font__nunito","titulo__")
     pcontent.classList.add("p__white","font__nunito" ,"p__")
    
-    btnsalir.src="img/icono-flecha.png"
+    btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
     const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
     
@@ -91,7 +91,7 @@ function borrarDos(){
     h2content.classList.add("text-center","text-white","font__nunito","titulo__")
     pcontent.classList.add("p__white","font__nunito" ,"p__")
    
-    btnsalir.src="img/icono-flecha.png"
+    btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
     const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
     
@@ -123,7 +123,7 @@ function borrarTres(){
     h2content.classList.add("text-center","text-white","font__nunito","titulo__")
     pcontent.classList.add("p__white","font__nunito" ,"p__")
    
-    btnsalir.src="img/icono-flecha.png"
+    btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
     const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
     
@@ -155,7 +155,7 @@ function borrarCuatro(){
     h2content.classList.add("text-center","text-white","font__nunito","titulo__")
     pcontent.classList.add("p__white","font__nunito" ,"p__")
     btnsalir.classList.add("pointer__js")
-    btnsalir.src="img/icono-flecha.png"
+    btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
     const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
     
