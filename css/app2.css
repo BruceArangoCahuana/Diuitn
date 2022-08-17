@@ -1056,6 +1056,9 @@ br{
 .content__ spam{
     text-align: center;
 }
+.card__products{
+    height: 372.9px!important;    
+}
 
 .content__ h2{
     font-size: 25px!important;
