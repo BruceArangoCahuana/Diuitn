@@ -1056,9 +1056,10 @@ br{
 .content__ spam{
     text-align: center;
 }
-.card__products{
-    height: 372.9px!important;    
+.img__hover:hover{
+    opacity: calc(0.7);
 }
+
 
 .content__ h2{
     font-size: 25px!important;
