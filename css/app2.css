@@ -103,7 +103,7 @@
     object-fit: cover;
     background-size: cover;
     width: 100%;
-    height: 568px;
+    height: auto!important;
 }
 .altura__hero{
     height: 100px!important;
@@ -678,6 +678,11 @@ border-radius: 50%;
     .delete{
         display: none!important;
     }
+    .img__{
+        background-image:url(../img/product-1.png)!important;
+    }
+    
+   
 }
 
 .delete-xs{
@@ -773,6 +778,9 @@ border-radius: 50%;
     box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.3);
 }
 
+.banner__{
+ height: 320px!important;
+}
 /** Nosotros **/
 .fondo__gray{
     background-color: #d3d3d3;
@@ -985,6 +993,9 @@ br{
 .me__10{
  margin-left: 10px!important;
 }
+.me__81{
+    margin-right: 81.4px!important;
+   }
 .btn__reset{
      width: 208px!important;
      height: auto!important;
@@ -1077,16 +1088,31 @@ br{
 .cursor__pointer{
     cursor: pointer!important;
 }
+
+
 /** 
 .modal-content{
     width: 500px!important;
     height: 538px!important;
 }
 **/
-@media (min-width: 992px){
+@media (max-width: 800px){
     .mx-lg-5 {
         
         margin-left: 5rem!important;
+    }
+    .me__pers {
+        margin-left: 0px!important;
+    }
+    .mr__pers {
+        margin-right: 0px!important;
+    }
+    .p__{
+        font-size: 16px!important;
+        text-align: justify!important;
+    }
+    .font__sub{
+        font-size: 30px!important;
     }
 }
 
