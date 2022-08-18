@@ -471,9 +471,7 @@ box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.3);
 border-radius: 50%;
 }
 .sombra__general__40{ 
-    -webkit-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.3);
--moz-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.3);
-box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.3);
+   
 border-radius: 40px;
 }
   /* Media Queries */
@@ -903,6 +901,12 @@ br{
 .me__34{
     margin-left: 34.6px!important;
 }
+.mr__25{
+    margin-right: 25px!important;
+}
+.me__25{
+    margin-left: 25px!important;
+}
 .font__subtitle{
     font-size: 30px!important;
     font-family: 'Nunito', sans-serif!important;
@@ -1100,7 +1104,16 @@ br{
 .card__blog{
     width: 410px!important;
 }
-
+.efect__{
+    overflow: hidden;
+}
+.scale__{
+    transition: all 8.s ease-out;
+}
+.scale__:hover{
+    transform: scale(1.1);
+    border-radius: 40px!important;
+}
 /** 
 .modal-content{
     width: 500px!important;
