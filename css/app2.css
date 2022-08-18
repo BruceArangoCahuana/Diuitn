@@ -1106,9 +1106,11 @@ br{
 }
 .efect__{
     overflow: hidden;
+    border-radius: 40px!important;
 }
 .scale__{
-    transition: all 8.s ease-out;
+    transition: all 3s ease-out;
+    object-fit: cover!important;
 }
 .scale__:hover{
     transform: scale(1.1);
