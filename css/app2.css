@@ -1109,7 +1109,7 @@ br{
     border-radius: 40px!important;
 }
 .scale__{
-    transition: all 3s ease-out;
+    transition: all .8s ease-out;
     object-fit: cover!important;
 }
 .scale__:hover{
