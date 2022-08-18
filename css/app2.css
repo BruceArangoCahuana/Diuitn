@@ -1116,6 +1116,9 @@ br{
     transform: scale(1.1);
     border-radius: 40px!important;
 }
+.line__{
+    line-height: 1!important;
+}
 /** 
 .modal-content{
     width: 500px!important;
