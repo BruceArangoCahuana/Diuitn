@@ -1111,6 +1111,7 @@ br{
 .scale__{
     transition: all .8s ease-out;
     object-fit: cover!important;
+    
 }
 .scale__:hover{
     transform: scale(1.1);
@@ -1119,6 +1120,7 @@ br{
 .line__{
     line-height: 1!important;
 }
+
 /** 
 .modal-content{
     width: 500px!important;
