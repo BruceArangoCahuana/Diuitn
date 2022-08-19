@@ -1116,6 +1116,7 @@ br{
 .scale__:hover{
     transform: scale(1.1);
     border-radius: 40px!important;
+    cursor: pointer!important;
 }
 .line__{
     line-height: 1!important;
