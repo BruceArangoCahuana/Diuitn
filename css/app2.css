@@ -471,8 +471,8 @@ box-shadow: 2px 2px 12px 0px rgba(10,40,66,0.3);
 border-radius: 50%;
 }
 .sombra__general__40{ 
-   
-border-radius: 40px;
+    
+    border-radius: 40px!important;
 }
   /* Media Queries */
   
@@ -1172,7 +1172,7 @@ br{
 .title__blog{
     color: white !important;
     font-weight: bolder!important;
-    font-size: 30px!important;
+    font-size: 25px!important;
     text-overflow: ellipsis!important;
 }
 .stroke{
