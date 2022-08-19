@@ -1109,8 +1109,8 @@ br{
     border-radius: 40px!important;
 }
 .scale__{
-    transition: all .8s ease-out;
-    object-fit: cover!important;
+    
+    -webkit-transition: all linear .3s!important;
     
 }
 .scale__:hover{
@@ -1120,7 +1120,83 @@ br{
 .line__{
     line-height: 1!important;
 }
+.img__blog__1{
+    background: url(../img/blog-nuevo-1.jpg)!important;
+    width: 100%!important;
+    height: 250px!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    object-fit: cover!important;
+}
 
+.img__blog__2{
+    background: url(../img/blog-nuevo-2.jpg)!important;
+    width: 100%!important;
+    height: 250px!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    object-fit: cover!important;
+}
+.img__blog__3{
+    background: url(../img/blog-nuevo-4.jpg)!important;
+    width: 100%!important;
+    height: 525px!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    object-fit: cover!important;
+}
+.img__blog__4{
+    background: url(../img/blog-nuevo-5.jpg)!important;
+    width: 100%!important;
+    height: 250px!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    object-fit: cover!important;
+}
+.img__blog__5{
+    background: url(../img/blog-nuevo-6.jpg)!important;
+    width: 100%!important;
+    height: 250px!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    object-fit: cover!important;
+}
+.img__blog__6{
+    background: url(../img/blog-nuevo-8.jpg)!important;
+    width: 100%!important;
+    height: 250px!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    object-fit: cover!important;
+}
+.title__blog{
+    color: white !important;
+    font-weight: bolder!important;
+    font-size: 30px!important;
+    text-overflow: ellipsis!important;
+}
+.stroke{
+    color: transparent !important;
+    -webkit-text-stroke: 1px white!important;
+}
+.mb_25{
+    margin-bottom: 25px!important;
+}
+.prueba__{
+    background:rgba(10,40,66,0.15)!important;
+    background-attachment: fixed!important;
+    position: relative!important;
+    width: 100%!important;
+    
+}
+
+
+.cuerpo__{
+    bottom: 25px!important;
+    left: 25px!important;
+    width: 100%!important;
+    
+}
 /** 
 .modal-content{
     width: 500px!important;

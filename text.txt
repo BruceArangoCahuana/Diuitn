@@ -81,3 +81,94 @@
             </div>
             
         </div>
+
+------------------------------------------------------------------
+<div class="full d-flex justify-content-between flex-wrap">
+        <div class="card__blog d-block justify-content-evenly mt__100">
+            <div class="efect__">
+                <div class="img__blog__1 scale__ sombra__general__40 mr__25 d-flex flex-column justify-content-end">
+                    <div class="me__25 mb_25 prueba__">
+                        <h2 class="font__nunito title__blog line__" style="display: inline-block;">Tips para
+                            para alimentos balanceados
+                        </h2>
+                        
+                    </div>
+                </div>
+            </div>
+            
+          
+            <div class="efect__">
+                <div class="img__blog__2 sombra__general__40 mr__25 mt__25 scale__  d-flex flex-column justify-content-end">
+                    <div class="me__25 mb_25">
+                        <h2 class="font__nunito title__blog line__">Pizza con
+                            pasta de avena
+                        </h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card__blog mt__100 position-relative">
+            <div class="efect__">
+                <div class="img__blog__3 sombra__general__40 mr__25 scale__ d-flex flex-column justify-content-end">
+                    <div class="me__25 mb_25">
+                        <h2 class="font__nunito title__blog line__">Ensalada
+                            pechuga de pollo
+                        </h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card__blog d-block justify-content-evenly mt__100 ">
+            <div class="efect__">
+                <div class="img__blog__4 sombra__general__40 mr__25 scale__ d-flex flex-column justify-content-end">
+                    <div class="me__25 mb_25">
+                        <h2 class="font__nunito title__blog line__">Refresco
+                            saludable
+                        </h2>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="efect__">
+                <div class="img__blog__5 sombra__general__40 mr__25  mt__25 scale__ d-flex flex-column justify-content-end">
+                    <div class="me__25 mb_25">
+                        <h2 class="font__nunito title__blog line__">Ejercicios que
+                            puedes realizar en casa
+                        </h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="card__blog d-block justify-content-evenly mt__25 mb__100">
+            <div class="efect__">
+                <div class="img__blog__6 sombra__general__40 mr__25 scale__ d-flex flex-column justify-content-end">
+                    <div class="me__25 mb_25">
+                        <h2 class="font__nunito title__blog line__">Refresco
+                            saludable
+                        </h2>
+                        
+                    </div>
+                </div>
+            </div>
+           <div class="efect__">
+             <img src="img/blog-nuevo-9.jpg" alt="" class="d-block w-100 mt__25 sombra__general__40 mr__25 scale__">
+           </div>
+        </div>
+        
+        <div class="card__blog d-block justify-content-evenly mt__25 mb__100">
+           <div class="efect__">
+            <img src="img/img-blog-nuevo-4.png" alt="" class="d-block w-100 sombra__general__40 mr__25 scale__">
+           </div>
+           <div class="efect__">
+            <img src="img/img-blog-nuevo-5.png" alt="" class="d-block w-100 mt__25 sombra__general__40 mr__25 scale__">
+           </div>
+        </div>
+        <div class="card__blog mt__25 mb__100 efect__">
+            <img src="img/blog-nuevo-7.jpg" alt="" class="d-block w-100 sombra__general__40 mr__25 scale__">
+        </div>
+      </div>
