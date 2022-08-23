@@ -1222,5 +1222,28 @@ br{
     .font__sub{
         font-size: 30px!important;
     }
+    .card__blog{
+        width: 100%!important;
+    }
+    .mt__25__media{
+        margin-top: 10px!important;
+    }
+    .mb__25__media{
+        margin-bottom: 8px!important;
+    }
+    .margin__null{
+        margin-left: 0px!important;
+    }
+    .text_center__media{
+        text-align: center!important;
+    }
+    .mr__203__null{
+        margin-right: 0px!important;
+    }
+    .fondo__body .justify-content-start,
+    .fondo__body .justify-content-end{
+        justify-content: center!important;
+    }
 }
+
 
