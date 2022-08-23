@@ -1,3 +1,5 @@
+
+
 .container-fluid{
     width: 90%!important;
     max-width: 1800px!important;
@@ -1052,11 +1054,18 @@ br{
     color: white!important;
 }
 .titulo__{
-    font-size: 40px!important;
+    font-size: 33px!important;
     font-weight: bolder!important;
 }
+.sub__{
+    font-size: 23px!important;
+    font-weight: bolder!important;
+}
+.content__{
+    font-size: 18px!important;
+}
 .p__{
-    font-size: 25px!important;
+    font-size: 18px!important;
     text-align: justify!important;
 }
 .carousel-indicators [data-bs-target] {
@@ -1246,4 +1255,33 @@ br{
     }
 }
 
-
+/*** recetas individual */
+.card__recetas{
+    width: 900px!important;
+}
+.card__recetas__mas{
+    width: 355px!important;
+}
+.border__radius__20{
+    border-radius: 20px!important;
+}
+.mt__15{
+    margin-top: 15px!important
+}
+.mb__15{
+    margin-bottom: 15px!important
+}
+.color__gray{
+    color:#5A5A5A!important;
+}
+.p__receta{
+font-size: 18px!important;
+}
+.span__receta{
+    font-size: 15px!important;
+}
+.start{
+    list-style: none!important;
+    color: white!important;
+    font-size: 20px!important;
+}
