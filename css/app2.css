@@ -39,20 +39,31 @@
     width: 25px!important;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-     color:#2a74ce!important;
+     color:#064da1!important;
     font-weight:bolder!important;
+    background-color: #D3D3D3!important;
 }
 .border__standar{
     border-radius: 15px!important;
 }
 
 .seccion__saludable{
-    background-color: #064da1;
-    color: white !important;    
+    background-color: #D3D3D3;
+    color: #2a74ce!important;    
    font-size: 20px!important;
+}
+.seccion__saludable:hover{
+    background-color: #D3D3D3!important;
 }
 .fs-20{
     font-size: 20px!important;
+}
+.fs-15{
+    font-size: 18px!important;
+    font-weight: bolder!important;
+}
+.fs-6{
+    font-size: 18px!important;
 }
 .stilos__menu{
     color: #064da1 !important;
@@ -63,13 +74,12 @@
 .stilos__menu:hover{
     color: #0f5fc0;
     font-weight: bolder!important;
+    background-color: #f2f2f2;
  }
  .stilos__menu__:hover{
    font-weight: normal!important;
- }
- .stilos__menu__:hover{
-    background-color: #227be7;
-  }
+}
+ 
  .navbar-light .navbar-nav .nav-link.active:hover{
     font-weight: bolder!important;
   }
@@ -1264,6 +1274,18 @@ br{
     .card__boticas{
        width:100%!important;
      }
+
+     .d__flex-center{
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center;
+     }
+     .fondo__body{
+        background-image: none!important;
+        
+        background-position: initial!important;
+        object-fit: initial!important;
+     }
 }
 
 /*** recetas individual */
@@ -1275,6 +1297,9 @@ br{
 }
 .border__radius__20{
     border-radius: 20px!important;
+}
+.border__radius__10{
+    border-radius: 10px!important;
 }
 .mt__15{
     margin-top: 15px!important
@@ -1301,4 +1326,8 @@ font-size: 18px!important;
 }
 .mb__150{
     margin-bottom: 150px!important;
+}
+.nav__medida{
+    width: 182.2px;
+    height: 55px;
 }
