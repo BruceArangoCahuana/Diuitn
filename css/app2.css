@@ -64,6 +64,12 @@
     color: #0f5fc0;
     font-weight: bolder!important;
  }
+ .stilos__menu__:hover{
+   font-weight: normal!important;
+ }
+ .stilos__menu__:hover{
+    background-color: #227be7;
+  }
  .navbar-light .navbar-nav .nav-link.active:hover{
     font-weight: bolder!important;
   }
@@ -1255,6 +1261,9 @@ br{
     .fondo__body .justify-content-end{
         justify-content: center!important;
     }
+    .card__boticas{
+       width:100%!important;
+     }
 }
 
 /*** recetas individual */
