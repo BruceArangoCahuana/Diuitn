@@ -23,9 +23,9 @@
    
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                    <div class="container-fluid d-flex flex-column">
-                            <div class="col-11 d-flex flex-wrap justify-content-between mb-4 menu__banderas">
-                                <div class="col-3">
+                    <div class="my__container d-flex flex-column">
+                            <div class="full d-flex flex-wrap justify-content-between mb-4 menu__banderas">
+                                <div class="col-3  full__media">
                                     <a class="navbar-brand logo__diutin" href="#">
                                         <img src="img/logodiutin.png" alt="" class="img-fluid logo__diutin" width="100px">
                                     </a>
@@ -33,24 +33,24 @@
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                 </div>
-                                <div class="col-3 full__media ">
+                                <div class="col-3 full__media">
                                     <ul class="d-flex flex-wrap justify-content-evenly list__estilos align-items-center mt-2">
-                                        <li class="col-1 bandera me-2">
+                                        <li class="col-1 bandera">
                                             <img src="img/peru.png" alt="" class="img-fluid bandera__size">
                                         </li>
-                                        <li class="col-1  bandera me-2">
+                                        <li class="col-1  bandera">
                                             <img src="img/chile.png" alt="" class="img-fluid bandera__size">
                                         </li>
-                                        <li class="col-1  bandera me-2">
+                                        <li class="col-1  bandera">
                                             <img src="img/colombia.png" alt="" class="img-fluid bandera__size">
                                         </li> 
-                                        <li class="col-1 bandera me-2">
+                                        <li class="col-1 bandera">
                                             <img src="img/ecuador.png" alt="" class="img-fluid bandera__size">
                                         </li>
-                                        <li class="col-1 bandera me-2">
+                                        <li class="col-1 bandera">
                                             <img src="img/bolivia.png" alt="" class="img-fluid bandera__size">
                                         </li>
-                                        <li class="col-1 bandera me-2">
+                                        <li class="col-1 bandera">
                                             <img src="img/panama.png" alt="" class="img-fluid bandera__size">
                                         </li>
                                     </ul>
@@ -59,31 +59,46 @@
                             
                         
                             <div class="collapse navbar-collapse col-11" id="navbarColor03">
-                                <ul class="navbar-nav me-auto d-flex justify-content-evenly align-items-center">
+                                <ul class="navbar-nav m-auto d-flex justify-content-evenly align-items-center">
                                 <li class="nav-item separados full__media">
-                                    <a class="nav-link active  font__oscuro stilos__menu text-white full__media" href="/">Inicio
+                                    <a class="nav-link  nav__medida 
+                                    d-flex justify-content-center 
+                                    align-items-center
+                                    text-center font__oscuro stilos__menu  full__media fs-6" href="/"
+                                    
+                                    >Inicio
                                     <span class="visually-hidden">(current)</span>
                                     </a>
                                 </li>
-                                <li class="nav-item separados  full__media">
-                                    <a class="nav-link font__oscuro stilos__menu" href="nosotros.html">Nosotros</a>
+                                <li class="nav-item separados full__media">
+                                    <a class="nav-link font__oscuro stilos__menu nav__medida fs-15
+                                    d-flex justify-content-center  text-center align-items-center full__media fs-6
+                                    " href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item separados full__media">
+                                    <a class="nav-link font__oscuro stilos__menu nav__medida fs-15
+                                    d-flex justify-content-center  text-center align-items-center full__media fs-6
+                                    " href="dondecomprar.html">Tienda</a>
+                                </li>
+                                <li class="nav-item separados full__media">
+                                    <a class="nav-link font__oscuro stilos__menu  nav__medida fs-15
+                                    d-flex justify-content-center  text-center align-items-center full__media fs-6
+                                    " href="preguntas.html">Dudas</a>
                                 </li>
                                 <li class="nav-item separados  full__media">
-                                    <a class="nav-link font__oscuro stilos__menu" href="dondecomprar.html">Tienda</a>
+                                    <a class="nav-link font__oscuro stilos__menu fs-15 nav__medida
+                                    d-flex justify-content-center  text-center align-items-center full__media fs-6
+                                    " href="productos.html">Productos</a>
                                 </li>
-                                <li class="nav-item separados  full__media">
-                                    <a class="nav-link font__oscuro stilos__menu" href="preguntas.html">Dudas</a>
+                                <li class="nav-item separado  full__media">
+                                    <a class="nav-link font__oscuro stilos__menu fs-15 nav__medida
+                                    d-flex justify-content-center  text-center align-items-center full__media fs-6
+                                    " href="#">Contacto</a>
                                 </li>
-                                <li class="nav-item separados  full__media">
-                                    <a class="nav-link font__oscuro stilos__menu" href="productos.html">Productos</a>
-                                </li>
-                                <li class="nav-item separado full__media">
-                                    <a class="nav-link font__oscuro stilos__menu" href="#">Contacto</a>
-                                </li>
-                                <li class="nav-item separados col-2 full__media">
-                                    <a class="nav-link full font__oscuro stilos__menu__ stilos__menu fs-3 text-white seccion__saludable d-flex justify-content-center p-2 text-center align-items-center border__radius__20" href="blog.html" 
-                                        style="font-family: 'Harland Roselyn', sans-serif!important;font-weight: 300;line-height: 1;">
-                                        Seccion saludable</a>
+                                <li class="nav-item separados full__media">
+                                    <a class="nav-link full full__media font__oscuro stilos__menu__ fs-4 nav__medida stilos__menu seccion__saludable d-flex justify-content-center  text-center align-items-center" href="blog.html" 
+                                        style="font-family: 'Harland Roselyn', sans-serif!important;font-weight: 300;line-height: 1; color: #2a74ce;">
+                                        Sección<br>saludable</a>
                                 </li>
                                 
                                 <!--
@@ -99,9 +114,7 @@
                                 </li>
                                 -->
                                 </ul>
-                                <form class="d-flex">
-                                <input class="form-control me-sm-2 border__input border__radius" type="text" placeholder="Buscar producto...">
-                                </form>
+                                
                             </div>
                     </div>
             </nav>
