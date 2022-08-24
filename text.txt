@@ -172,3 +172,10 @@
             <img src="img/blog-nuevo-7.jpg" alt="" class="d-block w-100 sombra__general__40 mr__25 scale__">
         </div>
       </div>
+
+      -------------------------------------------------------
+        <div class="d-flex justify-content-between">
+                <div class="card__recetas mt__100 mb__100 font__sub">
+                    
+                </div>
+            </div>
