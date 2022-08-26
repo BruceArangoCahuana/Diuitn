@@ -181,3 +181,10 @@
             </div>
 
             font-family: 'Pacifico', cursive;font-weight: 300;
+------------------------------------------------------------------------}
+<div class="loader__ position-absolute d-flex justify-content-center align-items-center position-fixed">
+    <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+</div>
