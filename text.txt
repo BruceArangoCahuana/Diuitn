@@ -179,3 +179,5 @@
                     
                 </div>
             </div>
+
+            font-family: 'Pacifico', cursive;font-weight: 300;
