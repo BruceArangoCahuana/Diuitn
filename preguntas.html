@@ -34,6 +34,13 @@
                                 </div>
                                 <div class="col-3 full__media">
                                     <ul class="d-flex flex-wrap justify-content-evenly list__estilos align-items-center mt-2">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-globe color__blue"></i></a>
+                                            <div class="dropdown-menu">
+                                            <a class="dropdown-item font__nunito" href="#">Ingles</a>
+                                            <a class="dropdown-item font__nunito" href="#">Español</a>
+                                            <a class="dropdown-item font__nunito" href="#">Portugues</a>
+                                        </li>
                                         <li class="col-1 bandera">
                                             <img src="img/peru.png" alt="" class="img-fluid bandera__size">
                                         </li>
@@ -233,8 +240,8 @@
     </footer>
     <!--Modal 1-->
     <div class="modal fade" id="modal__1" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
+        <div class="modal-dialog modal__content__pregunta">
+          <div class="modal-content modal__content__pregunta">
             <div class="modal-header flex-column">
                
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -243,55 +250,55 @@
                 <div class="modal-body">
                     
                     <div class="form-group align-items-center">
-                        <label class="label__ font__nunito">RUC:</label>
+                        
                         <div class="full">
                         <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa RUC">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Razón Social:</label>
+                        
                         <div class="full">
                         <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
                         </div>
                     </div>
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Representante Legal:</label>
+                        
                         <div class="full">
-                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa representante legal">
                         </div>
                     </div>
                 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Datos del contacto:</label>
+                        
                         <div class="full">
-                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon datos del contacto">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Número del contacto:</label>
+                        
                         <div class="full">
-                        <input type="tel" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        <input type="tel" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social número del contacto">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Dirección:</label>
+                        
                         <div class="full">
-                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social dirección">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Ciudad:</label>
+                        
                         <div class="full">
-                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
+                        <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social Ciudad">
                         </div>
                     </div>
                     
                 </div>
-            <div class="mt__40 mb__40 d-flex justify-content-center align-items-center">
+            <div class=" mb__40 d-flex justify-content-center align-items-center">
               <button type="button" class="btn btn-info btn__reset font__nunito">Enviar</button>
             </div>
           </div>
@@ -309,55 +316,51 @@
                 <div class="modal-body">
                     
                     <div class="form-group align-items-center">
-                        <label class="label__ font__nunito">Nombre Completo:</label>
                         <div class="full">
                         <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa nombre completo">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Profesión:</label>
                         <div class="full">
                         <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa profesion">
                         </div>
                     </div>
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">CMP/CNP/CEP:</label>
                         <div class="full">
                         <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa CMP,CNP O CEP">
                         </div>
                     </div>
                 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Correo electronico:</label>
-                        <div class="full">
+                       <div class="full">
                         <input type="email" class="form-control full reset__form font__nunito" placeholder="Ingresa correo">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Celular:</label>
+                      
                         <div class="full">
                         <input type="tel" class="form-control full reset__form font__nunito" placeholder="Ingresa numero de celular">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Centro de Labores:</label>
+                        
                         <div class="full">
                         <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa lugar de trabajo">
                         </div>
                     </div>
 
                     <div class="form-group  align-items-center mt__10">
-                        <label class="label__ font__nunito">Ciudad:</label>
+                        
                         <div class="full">
                         <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
                         </div>
                     </div>
                     
                 </div>
-            <div class="mt__40 mb__40 d-flex justify-content-center align-items-center">
+            <div class=" mb__40 d-flex justify-content-center align-items-center">
               <button type="button" class="btn btn-info btn__reset font__nunito">Enviar</button>
             </div>
           </div>
@@ -375,55 +378,55 @@
                     <div class="modal-body">
                         
                         <div class="form-group align-items-center">
-                            <label class="label__ font__nunito">Nombre Completo:</label>
+                            
                             <div class="full">
                             <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa nombre completo">
                             </div>
                         </div>
 
                         <div class="form-group  align-items-center mt__10">
-                            <label class="label__ font__nunito">Profesión:</label>
+                            
                             <div class="full">
                             <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa profesion">
                             </div>
                         </div>
                         <div class="form-group  align-items-center mt__10">
-                            <label class="label__ font__nunito">CMP/CNP/CEP:</label>
+                            
                             <div class="full">
                             <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa CMP,CNP O CEP">
                             </div>
                         </div>
                     
                         <div class="form-group  align-items-center mt__10">
-                            <label class="label__ font__nunito">Correo electronico:</label>
+                            
                             <div class="full">
                             <input type="email" class="form-control full reset__form font__nunito" placeholder="Ingresa correo">
                             </div>
                         </div>
 
                         <div class="form-group  align-items-center mt__10">
-                            <label class="label__ font__nunito">Celular:</label>
+                           
                             <div class="full">
                             <input type="tel" class="form-control full reset__form font__nunito" placeholder="Ingresa numero de celular">
                             </div>
                         </div>
 
                         <div class="form-group  align-items-center mt__10">
-                            <label class="label__ font__nunito">Institución:</label>
+                            
                             <div class="full">
                             <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa Institución">
                             </div>
                         </div>
 
                         <div class="form-group  align-items-center mt__10">
-                            <label class="label__ font__nunito">Ciudad:</label>
+                            
                             <div class="full">
                             <input type="text" class="form-control full reset__form font__nunito" placeholder="Ingresa razon social">
                             </div>
                         </div>
                         
                     </div>
-                <div class="mt__40 mb__40 d-flex justify-content-center align-items-center">
+                <div class="mb__40 d-flex justify-content-center align-items-center">
                 <button type="button" class="btn btn-info btn__reset font__nunito">Enviar</button>
                 </div>
             </div>

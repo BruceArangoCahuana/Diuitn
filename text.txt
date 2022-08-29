@@ -188,3 +188,59 @@
         <div class="double-bounce2"></div>
       </div>
 </div>
+
+---------------------------------------------------------------------------
+<div class="hero__diutin__2 alto__auto">
+        <br>
+        <h1 class="text-center font__nunito mb-5__personalizado mt-5__personalizado" style="font-weight: bold;">Blog Diutin</h1>
+        <div class="my__container mb-5__personalizado__ full__media">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    
+                </div>
+                <div class="carousel-inner redius-xs-20 sombra__baner banner__query">
+                    <div class="carousel-item height__media active"data-bs-interval="10000">
+                        <img src="img/blog-1.png" class="full banner__query position-relative" alt="BLOG-1">
+                        <div class="content__banner col-5 d-flex justify-content-start position-absolute" style="top: 20%;left:6.5%">
+                            <h2
+                            class="font__nunito color__blue"
+                            style="font-size: 54.5px;"
+                            >Ejercicios que puedes realizar en casa</h2>
+                        </div>
+                    </div>
+                  <div class="carousel-item height__media" data-bs-interval="1000">
+                    <img src="img/blog-2.png" class="full banner__query" alt="BLOG-2">
+                    <div class="content__banner col-5 d-flex justify-content-start position-absolute" style="top: 20%;left:6.5%">
+                        <h2
+                        class="font__nunito color__blue"
+                        style="font-size: 54.5px;"
+                        >Tips para mantener una Alimentación Balanceada</h2>
+                     </div>
+                  </div>
+
+                  <div class="carousel-item height__media active"data-bs-interval="10000">
+                    <img src="img/blog-1.png" class="full banner__query position-relative" alt="BLOG-1">
+                    <div class="content__banner col-5 d-flex justify-content-start position-absolute" style="top: 20%;left:6.5%">
+                        <h2
+                        class="font__nunito color__blue"
+                        style="font-size: 54.5px;"
+                        >Ejercicios que puedes realizar en casa</h2>
+                     </div>
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>  
+        </div>   
+        <br>     
+</div>

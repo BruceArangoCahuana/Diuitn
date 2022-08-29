@@ -1067,11 +1067,13 @@ br{
     background: #f1eded!important;
     
 }
-.modal-content{
+
+.modal__content__pregunta{
     width: 500px!important;
     border-radius: 20px!important;
     height: auto!important;
 }
+
 .modal__content__producto{
     width: 900px!important;
     border-radius: 20px!important;
@@ -1081,6 +1083,9 @@ br{
     .modal-dialog {
         max-width: 900px!important;
     }
+   #modalpreguntaUno .modal-dialog {
+        max-width: 500px!important;
+   }
 }
 
 .pointer__{
@@ -1167,9 +1172,7 @@ br{
     border-radius: 40px!important;
 }
 .scale__{
-    
-    -webkit-transition: all linear .3s!important;
-    
+     -webkit-transition: all linear .3s!important;
 }
 .scale__:hover{
     transform: scale(1.1);
@@ -1324,6 +1327,9 @@ br{
         width: auto!important;
         
     }
+    .modal__content__pregunta{
+        width: auto!important;
+    }
     .alto__auto{
         height: auto!important;
     }
@@ -1441,4 +1447,10 @@ font-size: 18px!important;
       transform: scale(1.0);
       -webkit-transform: scale(1.0);
     }
+  }
+  .dropdown-toggle::after{
+   color: #164194!important;
+  }
+  .dropdown-item:hover{
+    background-color: #f2f2f2!important;
   }
