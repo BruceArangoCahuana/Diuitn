@@ -61,7 +61,7 @@ function borrarUno(){
    
     btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
-    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
+    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.")
     
     h2content.appendChild(contentTitle)
     divContent.appendChild(h2content)
@@ -93,7 +93,7 @@ function borrarDos(){
    
     btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
-    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
+    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.")
     
     h2content.appendChild(contentTitle)
     divContent.appendChild(h2content)
@@ -125,7 +125,7 @@ function borrarTres(){
    
     btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
-    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
+    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.")
     
     h2content.appendChild(contentTitle)
     divContent.appendChild(h2content)
@@ -157,7 +157,7 @@ function borrarCuatro(){
     btnsalir.classList.add("pointer__js")
     btnsalir.src="img/cerrar.png"
     const contentTitle = document.createTextNode("Judd Sanders")
-    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto")
+    const contentText = document.createTextNode("Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.")
     
     h2content.appendChild(contentTitle)
     divContent.appendChild(h2content)

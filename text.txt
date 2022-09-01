@@ -244,3 +244,18 @@
         </div>   
         <br>     
 </div>
+
+--------------------------------------------------------------------------------------------------------------------------------------
+ <a href="#">
+                    <div class="efect__ position-relative" 
+                    style="-webkit-caja-sombra: -5px 5px 10px 0px rgba(10,40,66,0.10);
+                    -moz-box-shadow: -5px 5px 10px 0px rgba(10,40,66,0.10);
+                    box-shadow: -5px 5px 10px 0px rgba(10,40,66,0.10);"
+                        >
+                            <img src="img/blog-nuevo-1.jpg" alt="" class="img-fluid scale__  border__radius__20 full__media mb__100 mt__25">
+                            <div class="cuerpo__ position-absolute mb__100 mt__25">
+                                <h2 class="title__blog font__nunito">Tips para<br/> una alimentación balanceada</h2>
+                                <span class="badge bg-warning">Comida saludable</span>
+                            </div>
+                    </div>
+                </a>
