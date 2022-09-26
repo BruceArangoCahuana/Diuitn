@@ -545,15 +545,16 @@ border-radius: 50%;
         margin-bottom: 20px;
         padding: 10px 15px;
     }
-    .nuevo__hero{
-        background: url(../img/banner-pequeño-1.jpg)!important;
+    #banner-1{
+        background: url(../img//banner-pequeño-1.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
         object-fit: cover!important;
         max-width:100%!important;
         height: 100vh!important;
     }
-    .nuevo__hero__dos{
+   
+    #banner-2{
         background: url(../img/banner-pequeño-2.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
@@ -561,7 +562,7 @@ border-radius: 50%;
         max-width:100%!important;
         height: 100vh!important;
     }
-    .nuevo__hero__tres{
+    #banner-3{
         background: url(../img/banner-pequeño-3.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
@@ -569,7 +570,7 @@ border-radius: 50%;
         max-width:100%!important;
         height: 100vh!important;
     }
-    .nuevo__hero__cuatro{
+    #banner-4{
         background: url(../img/banner-pequeño-4.jpg)!important;
         background-size: cover!important;
         background-position: center!important;
@@ -1481,6 +1482,9 @@ font-size: 18px!important;
 .postion__banner__dos{
     top: 50%;left:16%
 }
+.mapa{
+    width: 100%!important;
+}
 
 @media (max-width: 800px){
     .postion__banner__{
@@ -1498,5 +1502,20 @@ font-size: 18px!important;
     .position__card{
         bottom: 25px!important; 
         height: 100px!important;
+    }
+    .flex__wrap__media{
+        flex-wrap: wrap!important;
+    }
+    .mapa{
+        height: 400px!important;
+        width: 100%!important;
+    }
+    .flex-column {
+        
+        flex-direction: column-reverse!important;
+    }
+   
+    .delete__{
+    visibility: hidden!important;
     }
 }

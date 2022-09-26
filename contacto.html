@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
     <title>Diutin</title>
 </head>
 <body>
@@ -83,15 +86,11 @@
                                     d-flex justify-content-center  text-center align-items-center full__media fs-6
                                     " href="nosotros.html">Nosotros</a>
                                 </li>
-                                <li class="nav-item separados full__media">
-                                    <a class="nav-link font__oscuro stilos__menu nav__medida fs-15
-                                    d-flex justify-content-center  text-center align-items-center full__media fs-6
-                                    " href="dondecomprar.html">Tienda</a>
-                                </li>
+                                
                                 <li class="nav-item separados full__media">
                                     <a class="nav-link font__oscuro stilos__menu  nav__medida fs-15
                                     d-flex justify-content-center  text-center align-items-center full__media fs-6
-                                    " href="preguntas.html">Dudas</a>
+                                    " href="preguntas.html">Preguntas frecuentes</a>
                                 </li>
                                 <li class="nav-item separados  full__media">
                                     <a class="nav-link font__oscuro stilos__menu fs-15 nav__medida
@@ -101,12 +100,12 @@
                                 <li class="nav-item separado  full__media">
                                     <a class="nav-link font__oscuro stilos__menu fs-15 nav__medida
                                     d-flex justify-content-center   active text-center align-items-center full__media fs-6
-                                    " href="contacto.html">Contacto</a>
+                                    " href="contacto.html">Contáctanos</a>
                                 </li>
-                                <li class="nav-item separados full__media">
-                                    <a class="nav-link full full__media   font__oscuro stilos__menu__ fs-4 nav__medida stilos__menu seccion__saludable d-flex justify-content-center  text-center align-items-center" href="blog.html" 
-                                        style="font-family: 'Harland Roselyn', sans-serif!important;font-weight: 300;line-height: 1; color: #2a74ce;">
-                                        Sección Saludable</a>
+                                <li class="nav-item separado  full__media">
+                                    <a class="nav-link font__oscuro stilos__menu fs-15 nav__medida
+                                    d-flex justify-content-center text-center align-items-center full__media fs-6
+                                    " href="blog.html">Blog</a>
                                 </li>
                                 
                                 <!--
@@ -139,31 +138,16 @@
             <br>
             <h2 class="font__nunito color__blue font__subtitle text-center">Contactate con nosotros</h2>
             <div class="full bg__info__contacto p-3" style="border: 1px solid #f2f2f2;">
-                 <div class="d-flex justify-content-center card__contacto h-auto">
-                    <div class="col-6 img__atributtes d-flex flex-column justify-content-evenly">
-                        <div id="bannercontacto" class="carousel slide p-2" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                
-                              <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="https://cdn.pixabay.com/photo/2020/04/04/15/11/brunch-5002686_960_720.jpg" class="img-fluid" alt="...">
-                              </div>
-                              <div class="carousel-item" data-bs-interval="2000">
-                                <img src="https://cdn.pixabay.com/photo/2018/01/01/01/56/yoga-3053487_960_720.jpg" class="img-fluid" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="https://cdn.pixabay.com/photo/2014/12/10/21/01/doctor-563429_960_720.jpg" class="img-fluid" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#bannercontacto" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#bannercontacto" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
+                
+                 <div class="d-flex justify-content-evenly card__contacto h-auto flex__wrap__media">
+                   
+                    <div class="col-6 img__atributtes d-flex flex-column justify-content-evenly full__media reverse__">
+                        <h2 class="font__nunito color__blue text-capitalize text-center">Nos ubicamos en:</h2>
+                       
+                        <div id="mapa" style="height: 100%;" class="full__media mapa">
                         </div>
-                       <ul class="d-flex justify-content-evenly align-items-center" style="list-style: none;">
+                       
+                       <ul class="d-flex justify-content-evenly align-items-center mt-3 full__media" style="list-style: none;">
                             <li>
                                 <i class="fa-brands fa-facebook fs-2 color__blue"></i>
                             </li>
@@ -175,8 +159,9 @@
                             </li>
                        </ul>
                     </div>
-                    <div class="col-6 p-2 bg-white">
-                        <form action="#">
+                    <div class="col-6   full__media">
+                        <h2 class="font__nunito color__blue text-capitalize text-center">Envianos tus dudas</h2>
+                        <form action="#" class="bg-white p-2">
                             <div class="form-group mt-3">
                                 <label for="#nombre" class="font__nunito color__blue">Nombre:</label>
                                 <input type="text" class="form-control  font__nunito" id="nombre"
@@ -184,13 +169,7 @@
                                 required
                                 >
                             </div>
-                            <div class="form-group mt-3">
-                                <label for="#apellido" class="font__nunito color__blue">Apellido:</label>
-                                <input type="text" class="form-control  font__nunito" id="apellido"
-                                placeholder="Ingresa tu apellido"
-                                required
-                                >
-                            </div>
+                          
                             <div class="form-group mt-3">
                                 <label for="#apellido" class="font__nunito color__blue">Correo:</label>
                                 <input type="email" class="form-control  font__nunito" id="correo"
@@ -205,7 +184,7 @@
                                 class="form-control  font__nunito"></textarea>
                             </div>
                             <div class="form-group mt-3 d-flex justify-content-end">
-                                <button class="btn btn-info btn-lg">Enviar</button>
+                                <button class="btn btn-info btn-lg full__media">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -216,39 +195,43 @@
    </div>
     
 
-    <footer class="footer-distributed">
+   <footer class="footer-distributed">
 
-        <div class="container-fluid">
-            <div class="footer-right">
+    <div class="container-fluid">
+        <div class="footer-right">
+   
+            <a href="https://www.facebook.com/DiutinGlobal" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/diutinglobal?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>
+            
+        </div>
+   
+        <div class="footer-left">
+   
+            <div class="footer-links d-flex justify-content-evenly col-8 align-items-center">
+                <a class="link-1" href="#">
+                    <img src="img/logo-diutin-blanco.png" alt="" class="img-fluid" style="object-fit: cover;">
+                </a>
+            
        
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>
-       
-            <div class="footer-left">
-       
-                <div class="footer-links d-flex justify-content-evenly col-8 align-items-center">
-                    <a class="link-1" href="#">
-                        <img src="img/logo-diutin-blanco.png" alt="" class="img-fluid" style="object-fit: cover;">
-                    </a>
-                
-           
-        
-                        <a href="#"class=" text-center text-decoration text-white reset__footer">Donde comprar</a>
-        
-                        <a href="#"class="text-center text-decoration text-white reset__footer">Preguntas frecuentes</a>
-        
-                        <a href="#" class="text-center text-decoration text-white reset__footer">Contactanos</a>
-                   
-                  
-                        
-       
-                   </div>
+    
+                    <a href="dondecomprar.html"class=" text-center text-decoration text-white reset__footer">Dónde comprar?</a>
+    
+                    <a href="preguntas.html"class="text-center text-decoration text-white reset__footer">Preguntas frecuentes</a>
+    
+                    <a href="contacto.html" class="text-center text-decoration text-white reset__footer">Contáctanos</a>
+               
+              
+                    
+   
                </div>
            </div>
-    </footer>
+       </div>
+   </footer>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ccf76aa2b3.js" crossorigin="anonymous"></script>
+    <script src="js/mapa.js"></script>
 </body>
 </html>
