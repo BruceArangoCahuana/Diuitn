@@ -525,7 +525,7 @@ border-radius: 50%;
         width: 100%!important;
     }
     .height__media{
-        height: 100%!important;
+        height: auto!important;
     }
     .height__media__p{
         height: auto!important;
@@ -1517,5 +1517,8 @@ font-size: 18px!important;
    
     .delete__{
     visibility: hidden!important;
+    }
+    .h__100{
+        height: auto!important;
     }
 }
