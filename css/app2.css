@@ -1531,11 +1531,12 @@ font-size: 18px!important;
     object-fit: cover!important;
     width: 100%!important;
 }
-@media (max-width: 1400px){
+@media (max-width: 1300px){
     .fondo__personalizado,
     .fondo__diuitn,
     .hero__diutin__,
-    .hero__diutin__2{
+    .hero__diutin__2,
+    .fondo__body__product{
        background: white!important;
        height: auto!important;
     }
