@@ -1522,7 +1522,24 @@ font-size: 18px!important;
         height: auto!important;
     }
 }
-
+.fondo__personalizado{
+    background: url( ../img/fondo_corregido.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    object-fit: cover!important;
+    width: 100%!important;
+}
+@media (max-width: 1200px){
+    .fondo__personalizado,
+    .fondo__diuitn,
+    .hero__diutin__,
+    .hero__diutin__2{
+       background: white!important;
+       height: auto!important;
+    }
+}
 @media (max-width: 600px){
     .flex__wrap__reverse{
         flex-wrap: wrap-reverse!important;
