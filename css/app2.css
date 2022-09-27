@@ -1522,3 +1522,12 @@ font-size: 18px!important;
         height: auto!important;
     }
 }
+
+@media (max-width: 600px){
+    .flex__wrap__reverse{
+        flex-wrap: wrap-reverse!important;
+    }
+    .flex__wrap{
+        flex-wrap: wrap!important;
+    }
+}
