@@ -1547,6 +1547,19 @@ font-size: 18px!important;
         justify-content: space-evenly!important;
         align-items: center!important;
     }
+    .fondo__body{
+        background: url(../img/fondo-latp.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover!important;
+        width: 100%!important;
+        height: auto!important;
+       
+    }
+    .mr__203 {
+        margin-right: 150px!important;
+    }
 }
 @media (max-width: 600px){
     .flex__wrap__reverse{
