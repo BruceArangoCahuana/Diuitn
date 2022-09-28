@@ -1544,7 +1544,7 @@ font-size: 18px!important;
        height: auto!important;
     }
     .justify__center{
-        justify-content: center!important;
+        justify-content: space-evenly!important;
     }
 }
 @media (max-width: 600px){
