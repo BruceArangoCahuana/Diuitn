@@ -1170,14 +1170,14 @@ br{
 }
 .efect__{
     overflow: hidden;
-    border-radius: 40px!important;
+    border-radius:20px!important;
 }
 .scale__{
      -webkit-transition: all linear .3s!important;
 }
 .scale__:hover{
     transform: scale(1.1);
-    border-radius: 40px!important;
+    border-radius: 20px!important;
     cursor: pointer!important;
 }
 .line__{
