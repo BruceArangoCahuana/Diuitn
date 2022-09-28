@@ -1522,6 +1522,9 @@ font-size: 18px!important;
         height: auto!important;
     }
 }
+.justify__center{
+    justify-content: space-between!important;
+}
 .fondo__personalizado{
     background: url( ../img/fondo_corregido.jpg);
     background-size: cover;
@@ -1540,6 +1543,9 @@ font-size: 18px!important;
        background: white!important;
        height: auto!important;
     }
+    .justify__center{
+        justify-content: center!important;
+    }
 }
 @media (max-width: 600px){
     .flex__wrap__reverse{
@@ -1548,4 +1554,5 @@ font-size: 18px!important;
     .flex__wrap{
         flex-wrap: wrap!important;
     }
+   
 }
