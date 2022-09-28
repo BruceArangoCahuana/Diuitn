@@ -1537,6 +1537,16 @@ font-size: 18px!important;
 .font__banner{
     font-size: 30px!important
 }
+.carousel-indicators [data-bs-target] {
+    width: 15px!important;
+    height: 15px!important;
+    border-radius: 50%!important;
+}
+.icon__banner{
+    font-size: 40px;
+    color:#064DA1;
+    
+}
 @media (max-width: 1400px){
     .fondo__personalizado,
     .fondo__diuitn,
