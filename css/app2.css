@@ -1477,10 +1477,10 @@ font-size: 18px!important;
 }
 .postion__banner__{
     top: 37%;
-    left:16%
+    
 }
 .postion__banner__dos{
-    top: 50%;left:16%
+    top: 50%
 }
 .mapa{
     width: 100%!important;
@@ -1497,7 +1497,7 @@ font-size: 18px!important;
     }
     .text__media{
         text-align: center!important;
-        font-size: 20px!important;
+        font-size: 18px!important;
     }
     .position__card{
         bottom: 25px!important; 
@@ -1534,6 +1534,9 @@ font-size: 18px!important;
     object-fit: cover!important;
     width: 100%!important;
 }
+.font__banner{
+    font-size: 30px!important
+}
 @media (max-width: 1400px){
     .fondo__personalizado,
     .fondo__diuitn,
@@ -1559,6 +1562,13 @@ font-size: 18px!important;
     }
     .mr__203 {
         margin-right: 150px!important;
+    }
+    .font__banner{
+        font-size: 28px!important
+    }
+    .none__line__banner{
+        list-style: none!important;
+        line-height: 1!important;
     }
 }
 @media (max-width: 600px){
