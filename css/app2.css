@@ -1076,9 +1076,9 @@ br{
 }
 
 .modal__content__producto{
-    width: 900px!important;
+    width: 950px!important;
     border-radius: 20px!important;
-    height: auto!important;
+    
 }
 @media (min-width: 576px){
     .modal-dialog {
@@ -1593,4 +1593,15 @@ font-size: 18px!important;
         flex-wrap: wrap!important;
     }
    
+}
+
+.border__radius__r{
+     border-bottom-left-radius:20px!important;
+     border-top-left-radius:20px!important;
+}
+
+@media (min-width: 576px){ 
+.modal-dialog {
+    max-width: 950px!important;
+}
 }

@@ -2,6 +2,8 @@
     {
         "id": 1,
         "img":"producto-mango-sandia.jpg",
+        "pop":"sandia-mango-popup.png",
+        "logo":"logo-16gr.png",
         "producto": "Diutin Protein",
         "sabor": "Sandia y mango",
         "presentacion": "Botella de 900ml (30z)",
@@ -41,6 +43,7 @@
     {
         "id": 4,
         "producto": "Diutin Glutamina",
+        "img":"producto-glutamina.png",
         "sabor": "Neutro",
         "presentacion": "Sachet de 15gr",
         "descripcion": "polvo para solución oral, elaborado bajo lo más altos estándares de calidad.",

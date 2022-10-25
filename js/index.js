@@ -40,54 +40,34 @@
             </div>
 
             <div class="modal fade" id="product-${items.id}" id="modalpreguntaUno" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content modal__content__producto">
-                    <div class="modal-header flex-column">
-                    
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">Categoria: ${items.categoria}</h5></div>
-                    </div>
-                        <div class="modal-body d-flex justify-content-center flex-wrap items-center">
-                            <div class="col-4 full__media">
-                                <img src="../img/${items.img}" alt="" class="img-fluid border__radius__20 h__full">
-                                <div>
-                                    <h2 class="text-center color__blue font__nunito">${items.producto}</h2>
-                                    <p class="text-center color__blue font__nunito">${items.sabor}</p>
-                                    <p class="text-center color__blue font__nunito">${items.presentacion}</p>
-                                    <h5 class="color__blue font__nunito">Descripcion</h5>
-                                    <p class="font__nunito text__justify">${items.descripcion}</p>
-                                </div>
-                            </div>
-                            <div class="col-6 full__media">
-                            <ul style="list-style: none;">
-                                    
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Recomendaciones:</h5> 
-                                        <p class="font__nunito text__justify">
-                                            ${items.recomendaciones}
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Instrucciones:</h5> 
-                                        <p class="font__nunito text__justify">${items.instrucciones}</p>
-                                    </li>
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Precauciones:</h5> 
-                                        <p class="font__nunito text__justify">${items.precauciones}</p>
-                                    </li>
-
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Conservacion:</h5> 
-                                        <p class="font__nunito text__justify">${items.conservacion}</p>
-                                    </li>
-                                    
-                                    
-                            </ul>
-                                
-                            </div>
-                        </div>
+        <div class="modal-dialog">
+            <div class="modal-content modal__content__producto">
+                <div class="modal-header flex-column" >
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">${items.producto}</h5></div>
                 </div>
+                    <div class="modal-body d-flex justify-content-evenly flex-wrap align-items-center">
+                        
+                            <img src="../img/${items.pop}" alt="">
+                            
+                       
+                        <div class="col-6 full__media mb-5 border border-light bg-light">
+                            <ul style="list-style: none;" class="p-3">
+                                <li style="line-height:1">
+                                   <p class="font__nunito text__justify"> <span class="color__blue font__nunito fw-bold text-uppercase">${items.producto}</span>: ${items.descripcion}</p>  
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">RECOMENDACION</span>: ${items.recomendaciones}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">INTRUCCIONES</span>: ${items.instrucciones}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">PRESENTACION</span>: ${items.presentacion}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">SABOR</span>: ${items.sabor}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">CONSERVACION</span>: ${items.conservacion}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">PRECAUCIONES</span>: ${items.precauciones}</p>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
             </div>
+        </div>
             `
         ))
     }
@@ -111,54 +91,35 @@
         </div>
 
         <div class="modal fade" id="product-${items.id}" id="modalpreguntaUno" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content modal__content__producto">
-                    <div class="modal-header flex-column">
-                    
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">Categoria: ${items.categoria}</h5></div>
-                    </div>
-                        <div class="modal-body d-flex justify-content-center flex-wrap items-center">
-                            <div class="col-4 full__media">
-                                <img src="img/product-1.jpg" alt="" class="img-fluid border__radius__20 h__full">
-                                <div>
-                                    <h2 class="text-center color__blue font__nunito">${items.producto}</h2>
-                                    <p class="text-center color__blue font__nunito">${items.sabor}</p>
-                                    <p class="text-center color__blue font__nunito">${items.presentacion}</p>
-                                    <h5 class="color__blue font__nunito">Descripcion</h5>
-                                    <p class="font__nunito text__justify">${items.descripcion}</p>
-                                </div>
-                            </div>
-                            <div class="col-6 full__media">
-                            <ul style="list-style: none;">
-                                    
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Recomendaciones:</h5> 
-                                        <p class="font__nunito text__justify">
-                                            ${items.recomendaciones}
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Instrucciones:</h5> 
-                                        <p class="font__nunito text__justify">${items.instrucciones}</p>
-                                    </li>
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Precauciones:</h5> 
-                                        <p class="font__nunito text__justify">${items.precauciones}</p>
-                                    </li>
-
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Conservacion:</h5> 
-                                        <p class="font__nunito text__justify">${items.conservacion}</p>
-                                    </li>
-                                    
-                                    
-                            </ul>
-                                
-                            </div>
-                        </div>
+        <div class="modal-dialog">
+            <div class="modal-content modal__content__producto">
+                <div class="modal-header flex-column">
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">${items.producto}</h5></div>
                 </div>
+                    <div class="modal-body d-flex justify-content-evenly flex-wrap align-items-center">
+                        
+                            <img src="../img/${items.pop}" alt="">
+                            
+                       
+                        <div class="col-6 full__media mb-5 border border-light bg-light">
+                            <ul style="list-style: none;" class="p-3">
+                                <li style="line-height:1">
+                                   <p class="font__nunito text__justify"> <span class="color__blue font__nunito fw-bold text-uppercase">${items.producto}</span>: ${items.descripcion}</p>  
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">RECOMENDACION</span>: ${items.recomendaciones}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">INTRUCCIONES</span>: ${items.instrucciones}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">PRESENTACION</span>: ${items.presentacion}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">SABOR</span>: ${items.sabor}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">CONSERVACION</span>: ${items.conservacion}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">PRECAUCIONES</span>: ${items.precauciones}</p>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
             </div>
+        </div>
             `
         ))
     }
@@ -181,54 +142,35 @@
         </div>
 
         <div class="modal fade" id="product-${items.id}" id="modalpreguntaUno" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content modal__content__producto">
-                    <div class="modal-header flex-column">
-                    
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">Categoria: ${items.categoria}</h5></div>
-                    </div>
-                        <div class="modal-body d-flex justify-content-center flex-wrap items-center">
-                            <div class="col-4 full__media">
-                                <img src="../img/${items.img}" alt="" class="img-fluid border__radius__20 h__full">
-                                <div>
-                                    <h2 class="text-center color__blue font__nunito">${items.producto}</h2>
-                                    <p class="text-center color__blue font__nunito">${items.sabor}</p>
-                                    <p class="text-center color__blue font__nunito">${items.presentacion}</p>
-                                    <h5 class="color__blue font__nunito">Descripcion</h5>
-                                    <p class="font__nunito text__justify">${items.descripcion}</p>
-                                </div>
-                            </div>
-                            <div class="col-6 full__media">
-                            <ul style="list-style: none;">
-                                    
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Recomendaciones:</h5> 
-                                        <p class="font__nunito text__justify">
-                                            ${items.recomendaciones}
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Instrucciones:</h5> 
-                                        <p class="font__nunito text__justify">${items.instrucciones}</p>
-                                    </li>
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Precauciones:</h5> 
-                                        <p class="font__nunito text__justify">${items.precauciones}</p>
-                                    </li>
-
-                                    <li>
-                                        <h5 class="color__blue font__nunito">Conservacion:</h5> 
-                                        <p class="font__nunito text__justify">${items.conservacion}</p>
-                                    </li>
-                                    
-                                    
-                            </ul>
-                                
-                            </div>
-                        </div>
+        <div class="modal-dialog">
+            <div class="modal-content modal__content__producto">
+                <div class="modal-header flex-column">
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">${items.producto}</h5></div>
                 </div>
+                    <div class="modal-body d-flex justify-content-evenly flex-wrap align-items-center">
+                        
+                            <img src="../img/${items.pop}" alt="">
+                            
+                       
+                        <div class="col-6 full__media  mb-5 border border-light bg-light">
+                            <ul style="list-style: none;" class="p-3">
+                                <li style="line-height:1">
+                                   <p class="font__nunito text__justify"> <span class="color__blue font__nunito fw-bold text-uppercase">${items.producto}</span>: ${items.descripcion}</p>  
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">RECOMENDACION</span>: ${items.recomendaciones}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">INTRUCCIONES</span>: ${items.instrucciones}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">PRESENTACION</span>: ${items.presentacion}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">SABOR</span>: ${items.sabor}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">CONSERVACION</span>: ${items.conservacion}</p>
+                                   <p class="font__nunito text__justify"><span class="color__blue font__nunito fw-bold">PRECAUCIONES</span>: ${items.precauciones}</p>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
             </div>
+        </div>
         `
         ))
     }
