@@ -1,27 +1,33 @@
-(function () {
-    const proteina = document.querySelector("#proteina")
-    const fibra = document.querySelector("#fibra")
-    const carbohidrato = document.querySelector("#carbohidrato")
+(function(){
+     const proteina = document.querySelector("#proteina");
 
-    const URL = "../json/productos.json"
+     const URL = "../json/productos.json"
+    document.addEventListener('DOMContentLoaded',() =>{
+        mostrarProducto()
+    })
+
+    
     function mostrarProducto() {
         fetch(URL)
             .then(response => response.json())
             .then(data => {
-                imprimirProteina(data),
-                imprimirFibra(data),
-                imprimirCarbohidratos(data)
+                if(window.location.pathname == "/categorias/proteina.html"){
+                    imprimirProteina(data)
+                }if (window.location.pathname == "/categorias/fibra.html") {
+                    imprimirFibra(data)
+                } else {
+                    imprimirCarbohidratos(data)
+                }
             })
     }
 
-    mostrarProducto()
     function imprimirProteina(data) {
         const mostrar = data.filter(item => item.categoria == "proteina")
         mostrar.map(items => (
             proteina.innerHTML += `
             <div class="card__products  cursor__pointer full__media" data-aos="flip-left" data-aos-duration="2000">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#product-${items.id}">
-                <img src="img/${items.img}" alt="" class="img-fluid full__media sombra__baner border__radius img__hover">
+                <img src="../img/${items.img}" alt="" class="img-fluid full__media sombra__baner border__radius img__hover">
                 </a>
                 <div class="content__ mt__35">
                     <ul class="none__line text-center">
@@ -43,7 +49,7 @@
                     </div>
                         <div class="modal-body d-flex justify-content-center flex-wrap items-center">
                             <div class="col-4 full__media">
-                                <img src="img/product-1.jpg" alt="" class="img-fluid border__radius__20 h__full">
+                                <img src="../img/${items.img}" alt="" class="img-fluid border__radius__20 h__full">
                                 <div>
                                     <h2 class="text-center color__blue font__nunito">${items.producto}</h2>
                                     <p class="text-center color__blue font__nunito">${items.sabor}</p>
@@ -92,7 +98,7 @@
             fibra.innerHTML +=`
             <div class="card__products  cursor__pointer full__media" data-aos="flip-left" data-aos-duration="2000">
             <a href="#" data-bs-toggle="modal" data-bs-target="#product-${items.id}">
-            <img src="img/${items.img}" alt="" class="img-fluid full__media sombra__baner border__radius img__hover">
+            <img src="../img/${items.img}" alt="" class="img-fluid full__media sombra__baner border__radius img__hover">
             </a>
             <div class="content__ mt__35">
                 <ul class="none__line text-center">
@@ -163,7 +169,7 @@
             carbohidrato.innerHTML += `
         <div class="card__products  cursor__pointer full__media" data-aos="flip-left" data-aos-duration="2000">
         <a href="#" data-bs-toggle="modal" data-bs-target="#product-${items.id}">
-        <img src="img/${items.img}" alt="" class="img-fluid full__media sombra__baner border__radius img__hover">
+        <img src="../img/${items.img}" alt="" class="img-fluid full__media sombra__baner border__radius img__hover">
         </a>
         <div class="content__ mt__35">
             <ul class="none__line text-center">
@@ -184,7 +190,7 @@
                     </div>
                         <div class="modal-body d-flex justify-content-center flex-wrap items-center">
                             <div class="col-4 full__media">
-                                <img src="img/product-1.jpg" alt="" class="img-fluid border__radius__20 h__full">
+                                <img src="../img/${items.img}" alt="" class="img-fluid border__radius__20 h__full">
                                 <div>
                                     <h2 class="text-center color__blue font__nunito">${items.producto}</h2>
                                     <p class="text-center color__blue font__nunito">${items.sabor}</p>
@@ -227,4 +233,3 @@
         ))
     }
 })()
-

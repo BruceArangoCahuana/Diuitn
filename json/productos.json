@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "img":"producto-mango-sandia.jpg",
         "producto": "Diutin Protein",
         "sabor": "Sandia y mango",
         "presentacion": "Botella de 900ml (30z)",
@@ -8,11 +9,12 @@
         "recomendaciones": "Como complemento proteico de la dieta en situaciones de baja ingesta proteica y/o requerimientos proteicos aumentados.",
         "instrucciones": "se puede consumir de manera directa, con su bebida o comida favorita. Mezcla con líquidos: jugos, batidos, agua, refrescos, etc.Mezcla con alimentos: ensalada de frutas, gelatina, mazamorra, etc. Por vía enteral diluído con agua al 50%.",
         "conservacion":"Conservar el producto en un lugar seco y en su envase original a temperatura ambiente no mayor de 30°C, estable hasta 3 meses después de abierto.",
-        "precauciones":"Hipersensiblidad a algunos de sus componentes. ADVERTENCIAS: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto debe ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto. Los productos dietéticos no deben utilizarse como sustituto de una dieta equilibrada",
+        "precauciones":"Hipersensiblidad a algunos de sus componentes. <span class='fw-bold text-danger'>ADVERTENCIAS</span>: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto debe ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto. Los productos dietéticos no deben utilizarse como sustituto de una dieta equilibrada",
         "categoria":"proteina"
     },
     {
         "id": 2,
+        "img":"producto-limon-naranja.jpg",
         "producto": "Diutin Protein Plus",
         "sabor": "Limon y maranja",
         "presentacion": "Botella de 900ml (30z)",
@@ -20,11 +22,12 @@
         "recomendaciones": "Como complemento proteico de la dieta en situaciones de baja ingesta proteica y/o requerimientos proteicos aumentados.",
         "instrucciones": "se puede consumir de manera directa, con su bebida o comida favorita. Mezcla con líquidos: jugos, batidos, agua, refrescos, etc.Mezcla con alimentos: ensalada de frutas, gelatina, mazamorra, etc. Por vía enteral diluído con agua al 50%.",
         "conservacion":"Conservar el producto en un lugar seco y en su envase original a temperatura ambiente no mayor de 30°C, estable hasta 3 meses después de abierto.",
-        "precauciones":"Hipersensiblidad a algunos de sus componentes. ADVERTENCIAS: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto debe ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto.Los productos dietéticos no deben utilizarse como sustituto de una dieta equilibrada",
+        "precauciones":"Hipersensiblidad a algunos de sus componentes. <span class='fw-bold text-danger'>ADVERTENCIAS</span>: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto debe ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto.Los productos dietéticos no deben utilizarse como sustituto de una dieta equilibrada",
         "categoria":"proteina"
     },
     {
         "id": 3,
+        "img":"product-5.jpg",
         "producto": "Diutin Whey Protein",
         "sabor": "Neutro",
         "presentacion": "Lata de 275gr",
@@ -32,7 +35,7 @@
         "recomendaciones": "Como complemento proteico de la dieta en situaciones de baja ingesta proteica y/o requerimientos proteicos aumentados.",
         "instrucciones": "se disuelve instantáneamente. Se sugiere mezclar con su bebida o comida favorita. Mezcla con líquidos: jugos, leche, infusiones, fórmulas enterales, etc. Mezcla con alimentos: avena, mazamorra, cremas, puré, postres, etc.",
         "conservacion":"Conservar el producto en un lugar seco y en su envase original a temperatura ambiente no mayor de 30°C.",
-        "precauciones":"Hipersensibilidad a algunos de sus componentes. Advertencias: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto puede ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto.Los productos dietéticos no deben usarse como un sustituto de una dieta equilibrada.",
+        "precauciones":"Hipersensibilidad a algunos de sus componentes. <span class='fw-bold text-danger'>ADVERTENCIAS</span>: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto puede ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto.Los productos dietéticos no deben usarse como un sustituto de una dieta equilibrada.",
         "categoria":"proteina"
     },
     {
@@ -43,12 +46,13 @@
         "descripcion": "polvo para solución oral, elaborado bajo lo más altos estándares de calidad.",
         "recomendaciones": "Diutin Glutamina puede usarse como módulo de glutamina en situaciones que se requiera cubrir demandas incrementadas de dicho aminoácido.",
         "instrucciones": "Diutin Glutamina, para uso oral y/o enteral. Se disuelve instantáneamente, se sugiere mezclar con su bebida o comida favorita. Mezcla con líquidos: jugos, leche, infusiones, etc. Mezcla con alimentos: avena, mazamorra, cremas, gelatina, etc.",
-        "precauciones":"Hipersensibilidad a algunos de sus componentes. Advertencias: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto puede ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto.Los productos dietéticos no deben usarse como un sustituto de una dieta equilibrada",
+        "precauciones":"Hipersensibilidad a algunos de sus componentes. <span class='fw-bold text-danger'>ADVERTENCIAS</span>: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto puede ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto.Los productos dietéticos no deben usarse como un sustituto de una dieta equilibrada",
         "categoria":"proteina"
     },
     
     {
         "id": 5,
+        "img":"product-6.jpg",
         "producto": "Diutin Fibercel",
         "sabor": "Sin Sabor",
         "presentacion": "Lata de 336gr",
@@ -60,6 +64,7 @@
     },
     {
         "id": 6,
+        "img":"product-7.jpg",
         "producto": "Diutin Carbs",
         "sabor": "Neutro",
         "presentacion": "Lata de 400gr",
@@ -67,7 +72,7 @@
         "recomendaciones": "Diutin Carbs, puede usarse como aporte de carbohidratos en la dieta en situaciones de ingesta disminuida para personas con necesidades calóricas incrementadas.",
         "instrucciones": "Diutin Carbs, se disuelve instantáneamente. Se Sugiere mezclar con su bebida o comida favorita. Mezcla con líquidos: jugos, leche, infusiones, fórmulas enterales, etc. Mezcla con alimentos: avena, mazamorra, cremas, puré postres, etc.",
         "conservacion":"Conservar el producto en un lugar seco y en su envase original a temperatura ambiente no mayor de 30°C.",
-        "precauciones":"Hipersensibilidad a algunos de sus componentes. Advertencias: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto puede ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto. Los productos dietéticos no deben usarse como un sustituto de una dieta equilibrada",
+        "precauciones":"Hipersensibilidad a algunos de sus componentes. <span class='fw-bold text-danger'>ADVERTENCIAS</span>: No superar la dosis diaria expresamente recomendada para productos dietéticos. El producto puede ser almacenado fuera del alcance y vista de los niños. No usar si el sello de seguridad está roto. Los productos dietéticos no deben usarse como un sustituto de una dieta equilibrada",
         "categoria":"carbohidratos"
     }
 ]
