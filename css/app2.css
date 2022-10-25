@@ -550,7 +550,7 @@ border-radius: 50%;
         background-size: cover!important;
         background-position: center!important;
         object-fit: cover!important;
-        max-width:100%!important;
+        width:100%!important;
         height: 100vh!important;
     }
    
@@ -1546,6 +1546,10 @@ font-size: 18px!important;
     font-size: 40px;
     color:#064DA1;
     
+}
+
+.h__full{
+    height: auto!important;
 }
 @media (max-width: 1400px){
     .fondo__personalizado,
