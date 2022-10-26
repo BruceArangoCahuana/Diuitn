@@ -242,7 +242,7 @@
             <div class="modal-header flex-column">
                
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              <div><h5 class="modal-title color__blue font__nunito" id="Modal-1" style="font-size: 30px;">Regístrate</h5></div>
+              <div><h5 class="modal-title color__blue font__nunito" id="Modal-1" style="font-size: 30px;">Ventas por Mayor</h5></div>
             </div>
                 <div class="modal-body">
                     
@@ -296,6 +296,17 @@
                         
                         <div class="full">
                             <select name="provincia" id="lugar" class="form-control reset__form">
+                                <option class="font__nunito text-dark">-- Seleccionar Pais --</option>
+                                <option value="lima" class="font__nunito">Perú</option>
+                                <option value="provincia" class="font__nunito">Panama</option>
+                                <option value="provincia" class="font__nunito">Estados Unidos</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group  align-items-center mt__10">
+                        
+                        <div class="full">
+                            <select name="provincia" id="lugar" class="form-control reset__form">
                                 <option class="font__nunito text-dark">-- Seleccionar Lima/Provincia --</option>
                                 <option value="lima" class="font__nunito">Lima</option>
                                 <option value="provincia" class="font__nunito">Provincia</option>
@@ -320,7 +331,7 @@
                     </div>
                 </div>
             <div class=" mb__40 d-flex justify-content-center align-items-center">
-              <button type="button" class="btn btn-info btn__reset font__nunito">Enviar</button>
+              <button type="button" class="btn btn-info btn__reset font__nunito" disabled>Enviar</button>
             </div>
           </div>
         </div>

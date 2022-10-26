@@ -42,7 +42,7 @@
                 <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">${items.producto}</h5></div>
                 </div>
                     <div class="modal-body d-flex justify-content-evenly flex-wrap align-items-center">
-                        
+                            <img src="../img/${items.logo}" alt="">
                             <img src="../img/${items.pop}" alt="">
                             
                        
@@ -95,7 +95,7 @@
                 <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">${items.producto}</h5></div>
                 </div>
                     <div class="modal-body d-flex justify-content-evenly flex-wrap align-items-center">
-                        
+                            <img src="../img/${items.logo}" alt="">
                             <img src="../img/${items.pop}" alt="">
                             
                        
@@ -146,7 +146,7 @@
                 <div><h5 class="modal-title color__blue font__nunito text-capitalize" id="Modal-1" style="font-size: 30px;">${items.producto}</h5></div>
                 </div>
                     <div class="modal-body d-flex justify-content-evenly flex-wrap align-items-center">
-                        
+                            <img src="../img/${items.logo}" alt="">
                             <img src="../img/${items.pop}" alt="">
                             
                        
